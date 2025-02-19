@@ -139,6 +139,65 @@ def calculate_totals(deductions_sheet, pr_sheet):
         logger.error(f"Error calculating totals: {e}")
         raise
 
+def calculate_client_totals(deductions_sheet, pr_sheet, client):
+    global calculated_amount
+    try:
+        calculated_totals = 0
+        # clients = deductions_sheet["Type"].unique()
+        # print("Clients in deductions_sheet:", clients)
+        # for client in clients: 
+        # logger.info(f"Calculating totals for {client} clients.")
+
+        client_header_row = pr_sheet[pr_sheet.iloc[:, 0].astype(str).str.contains(client, na=False, case=False)]
+        if client_header_row.empty:
+            logger.warning(f"No header row found for client {client} in pr_sheet.")
+            return calculated_totals; 
+    
+        # Get the index of the client header row
+        client_header_index = client_header_row.index[0]
+        # logger.info(f"Found client header for {client} at row {client_header_index}.")
+
+        # Find the first empty row after the client header row to determine the endpoint
+        empty_row_index = pr_sheet.iloc[client_header_index + 1:, 0].isna().idxmax()
+
+        if pd.isna(empty_row_index):
+            # If no empty row is found, use the last row of the DataFrame
+            next_header_index = pr_sheet.shape[0]
+        else:
+            # The index of the first empty row marks the endpoint
+            next_header_index = empty_row_index + client_header_index + 1
+
+        # logger.info(f"Partner rows for client {client} are between rows {client_header_index + 1} and {next_header_index - 1}.")
+
+        # Extract the partner rows between the client header and the first empty row
+        partner_rows = pr_sheet.iloc[client_header_index + 1:next_header_index]
+
+        # Get all unique partners for this client from the deductions sheet
+        total_partners = deductions_sheet["PARTNER"].unique()
+        # logger.info(f"Total partners for {client}: {len(total_partners)}")
+
+        total_amount = 0
+
+        # Calculate total amount for matching partners
+        for partner in total_partners:
+            # Find rows in partner_rows matching the partner
+            partner_rows_matched = partner_rows[partner_rows.iloc[:, 0].astype(str).str.strip() == str(partner).strip()]
+
+            if not partner_rows_matched.empty:
+                # Add the amount found in column 16 (assuming it's the amount column)
+                total_amount += partner_rows_matched.iloc[0, 16]  # Column 16 contains the amount
+                # logger.info(f"Amount for partner {partner}: {partner_rows_matched.iloc[0, 14]}")
+        calculated_totals += total_amount
+
+
+        logger.info(f"Total amount for client {client}: {total_amount}")
+        # logger.info("Calculating totals for trips, hours, operators, and amounts.")
+        logger.info(f"Total calculated mamount:{calculated_totals}")
+        return calculated_totals
+    except Exception as e:
+        logger.error(f"Error calculating totals: {e}")
+        raise
+
 def compare_totals(sheet_previous, sheet_latest):
     try:
         logger.info("Comparing Totals between previous and latest values.")
@@ -166,30 +225,33 @@ def compare_totals(sheet_previous, sheet_latest):
         logger.error(f"Error comparing totals: {e}")
         raise
 
-def compare_htotalrev(sheet_previous, sheet_latest):
+def compare_htotalrev(sheet_previous, sheet_latest, client):
     try:
         logger.info("Comparing Hourly Total Revs between previous and latest sheets.")
-        
-        # Select the relevant columns directly
-        previous_values = sheet_previous[["PARTNER NAME", "Total Rev"]]
-        latest_values = sheet_latest[["PARTNER NAME", "Total Rev"]]
 
-        # Merge both dataframes on "PARTNER" and handle missing values with 0
-        comparison = previous_values.merge(latest_values, on="PARTNER NAME", how="outer", suffixes=("_PREVIOUS", "_LATEST")).fillna(0)
+        # Group by "PARTNER NAME" and sum "Total Rev"
+        if client == "TRANSDEV":
+            previous_grouped = sheet_previous.groupby("PARTNER NAME", as_index=False)["TTL Rev"].sum()
+            latest_grouped = sheet_latest.groupby("PARTNER NAME", as_index=False)["TTL Rev"].sum()
+        else:
+            previous_grouped = sheet_previous.groupby("PARTNER NAME", as_index=False)["Total Rev"].sum()
+            latest_grouped = sheet_latest.groupby("PARTNER NAME", as_index=False)["Total Rev"].sum()
 
-        # Calculate the change in the "Total Rev"
+        # Merge both grouped dataframes on "PARTNER NAME"
+        comparison = previous_grouped.merge(latest_grouped, on="PARTNER NAME", how="outer", suffixes=("_PREVIOUS", "_LATEST")).fillna(0)
+
+        # Calculate the change in "Total Rev"
         comparison["CHANGE"] = comparison["Total Rev_LATEST"] - comparison["Total Rev_PREVIOUS"]
+
+        # Round values
         for col in ["Total Rev_LATEST", "Total Rev_PREVIOUS", "CHANGE"]:
             comparison[col] = comparison[col].round(2)
 
-        # Prepare the final dataframe for comparison
-        deductions_comparison = comparison[["PARTNER NAME", "Total Rev_LATEST", "Total Rev_PREVIOUS", "CHANGE"]].drop_duplicates(subset="PARTNER NAME")
-
-        # Rename columns
-        deductions_comparison.columns = ["PARTNER", "LATEST", "PREVIOUS", "CHANGE"]
+        # Rename columns for clarity
+        comparison.columns = ["PARTNER", "PREVIOUS", "LATEST", "CHANGE"]
 
         logger.info("HTOTALREV comparison completed.")
-        return deductions_comparison
+        return comparison
 
     except Exception as e:
         logger.error(f"Error comparing HTOTALREV: {e}")
@@ -259,48 +321,6 @@ def compare_violations(sheet_previous, sheet_latest, htotalrev_df):
         raise
 
 def compare_operators(sheet_previous, sheet_latest):
-    # try:
-    #     logger.info("Comparing operators between previous and latest sheets.")
-        
-    #     # Extract and store unique pairs of (OPERATOR NAME, PARTNER NAME)
-    #     operators_previous = set(sheet_previous[["OPERATOR NAME", "PARTNER NAME"]].dropna().itertuples(index=False, name=None))
-    #     operators_latest = set(sheet_latest[["OPERATOR NAME", "PARTNER NAME"]].dropna().itertuples(index=False, name=None))
-
-    #     # Identify added and removed operators
-    #     added = operators_latest - operators_previous
-    #     removed = operators_previous - operators_latest
-
-    #     # Convert to DataFrame format
-    #     added_list = [{"Operator Name": op, "Partner": partner, "Change": "Added"} for op, partner in added]
-    #     removed_list = [{"Operator Name": op, "Partner": partner, "Change": "Removed"} for op, partner in removed]
-
-    #     # Create DataFrames
-    #     added_df = pd.DataFrame(added_list)
-    #     removed_df = pd.DataFrame(removed_list)
-
-    #     # Ensure DataFrames always have the necessary columns
-    #     if added_df.empty:
-    #         added_df = pd.DataFrame(columns=["Operator Name", "Partner", "Change"])
-    #     if removed_df.empty:
-    #         removed_df = pd.DataFrame(columns=["Operator Name", "Partner", "Change"])
-
-    #     # Combine the results
-    #     operator_changes_df = pd.concat([added_df, removed_df], ignore_index=True)
-
-    #     # If no changes were found, add a "No Changes" row
-    #     if operator_changes_df.empty:
-    #         operator_changes_df = pd.DataFrame([{
-    #             "Operator Name": "No Changes",
-    #             "Partner": "No Changes",
-    #             "Change": "No Changes"
-    #         }])
-
-    #     logger.info("Operator comparison completed.")
-    #     return operator_changes_df
-
-    # except Exception as e:
-    #     logger.error(f"Error comparing operators: {e}")
-    #     raise
     try:
         logger.info("Comparing operators between previous and latest sheets.")
         
@@ -562,7 +582,6 @@ def save_comparison_results(output_folder, comparison_data, filename):
         logger.error(f"Error saving comparison results: {e}")
         raise
 
-
 def main(file_previous, file_latest):
     try: 
         file_entry_previous = file_previous
@@ -573,9 +592,75 @@ def main(file_previous, file_latest):
         output_folder = "ComparedResults"
         os.makedirs(output_folder, exist_ok=True)
 
-        sheet_pr_previous, sheet_pr_latest, sheet_vdpmv_previous, sheet_vdpmv_latest, sheet_deductions_previous, sheet_deductions_latest = load_sheets(file_previous, file_latest)
+        sheet_pr_previous, sheet_pr_latest, sheet_vdpmv_previous, sheet_vdpmv_latest, sheet_trapeze_previous, sheet_trapeze_latest, sheet_deductions_previous, sheet_deductions_latest = load_sheets(file_previous, file_latest)
 
-        # 1. Process the data without any filtering (full comparison)
+        unique_clients = sheet_deductions_latest["Type"].dropna().unique()
+
+        for client in unique_clients:
+            # 1. Process the data without any filtering (full comparison)
+            sheet_cdeductions_latest = sheet_deductions_latest[sheet_deductions_latest["Type"] == client]
+            sheet_cdeductions_previous = sheet_deductions_previous[sheet_deductions_previous["Type"] == client]
+            # Compare totals
+        
+            # logger.info(f"Totals DF: {totals_comparison_df}")
+
+            # 2. Compare hourly total revs
+            if client == "TRANSDEV":
+                t_client = "DIV10_TRIMET"
+                logger.info(f"Client in total: {client}")
+                prev_totals = calculate_client_totals(sheet_deductions_previous, sheet_pr_previous, t_client)
+                lat_totals = calculate_client_totals(sheet_deductions_latest, sheet_pr_latest, t_client)
+                totals_comparison_df = compare_totals(prev_totals, lat_totals)
+
+                compare_htotalrev_df = compare_htotalrev(sheet_vdpmv_previous, sheet_vdpmv_latest, t_client)
+            else:
+                t_client == "UBER WAV TRANSIT"
+                prev_totals = calculate_client_totals(sheet_deductions_previous, sheet_pr_previous, t_client)
+                lat_totals = calculate_client_totals(sheet_deductions_latest, sheet_pr_latest, t_client)
+                totals_comparison_df = compare_totals(prev_totals, lat_totals)
+
+                compare_htotalrev_df = compare_htotalrev(sheet_trapeze_previous, sheet_trapeze_latest, t_client)
+            # logger.info(f"HTOTAL_REV DF: {compare_htotalrev_df}")
+
+            # 3. Compare Lift Lease
+            compare_liftlease_df = compare_liftlease(sheet_cdeductions_previous, sheet_cdeductions_latest, compare_htotalrev_df)
+            # logger.info(f"Lift Lease DF: {compare_liftlease_df}")
+
+            # 4. Compare Violations
+            compare_violations_df = compare_violations(sheet_cdeductions_previous, sheet_cdeductions_latest, compare_htotalrev_df)
+            # logger.info(f"Violations DF: {compare_violations_df}")
+
+            # 5. Compare operators
+            # operator_changes_df = compare_operators(sheet_partner_previous, sheet_partner_latest)
+            # logger.info(f"Operator Changes DF:{operator_changes_df}")
+
+            # 6. Week 1 comparison
+            
+
+            # Save the full comparison results
+            full_comparison_file = os.path.join(output_folder, f"DIV10_{client}_Tables.xlsx")
+            excel_sheets = []
+            with pd.ExcelWriter(full_comparison_file, engine="openpyxl") as writer:
+                totals_comparison_df.to_excel(writer, sheet_name="TotalInvoicePayment", index=False)
+                excel_sheets.append("TotalInvoicePayment")
+                compare_htotalrev_df.to_excel(writer, sheet_name="HTotalRevComparison", index=False)
+                excel_sheets.append("HTotalRevComparison")
+                compare_liftlease_df.to_excel(writer, sheet_name="LiftLeaseComparison", index=False)
+                excel_sheets.append("LiftLeaseComparison")
+                compare_violations_df.to_excel(writer, sheet_name="ViolationComparison", index=False)
+                excel_sheets.append("ViolationComparison")
+                # operator_changes_df.to_excel(writer, sheet_name="OperatorChanges", index=False)
+                # excel_sheets.append("OperatorChanges")
+
+            # Apply formatting to the full comparison file
+            wb_full = load_workbook(full_comparison_file)
+            for sheet in excel_sheets:                                                                                                
+                apply_formatting(sheet, wb_full)
+            wb_full.save(full_comparison_file)
+            wb_full.close()
+                
+
+# 1. Process the data without any filtering (full comparison)
 
         # Compare totals
         prev_totals = calculate_totals(sheet_deductions_previous, sheet_pr_previous)
@@ -600,7 +685,7 @@ def main(file_previous, file_latest):
         # logger.info(f"Operator Changes DF:{operator_changes_df}")
 
         # 6. Week 1 comparison
-        
+            
 
         # Save the full comparison results
         full_comparison_file = os.path.join(output_folder, "DIV10_Tables.xlsx")
@@ -641,6 +726,31 @@ def main(file_previous, file_latest):
                 reqhours_changes_df.to_excel(writer, sheet_name=f"{week}ReqHrsComp", index=False)
                 excel_sheets.append(f"{week}ReqHrsComp")
 
+                for week in ["Week1", "Week2"]:
+                    acceptance_changes_df = compare_acceptance_rate(sheet_vdpmv_previous, sheet_vdpmv_latest, week)
+                    acceptance_changes_df.to_excel(writer, sheet_name=f"{week}AcceptRateComp", index=False)
+                    excel_sheets.append(f"{week}AcceptRateComp")
+
+                    cancellation_changes_df = compare_cancellation_rate(sheet_vdpmv_previous, sheet_vdpmv_latest, week)
+                    cancellation_changes_df.to_excel(writer, sheet_name=f"{week}CancelRateComp", index=False)
+                    excel_sheets.append(f"{week}CancelRateComp")
+
+                    utilization_changes_df = compare_utilization(sheet_vdpmv_previous, sheet_vdpmv_latest, week)
+                    utilization_changes_df.to_excel(writer, sheet_name=f"{week}UtilizationComp", index=False)
+                    excel_sheets.append(f"{week}UtilizationComp")
+
+                    pOnlinehours_changes_df = compare_pOnlineHours(sheet_vdpmv_previous, sheet_vdpmv_latest, week)
+                    pOnlinehours_changes_df.to_excel(writer, sheet_name=f"{week}POnlineHrsComp", index=False)
+                    excel_sheets.append(f"{week}POnlineHrsComp")
+
+                    # pbonushours_changes_df = compare_pBonusHours(sheet_vdpmv_previous, sheet_vdpmv_latest, week)
+                    # pbonushours_changes_df.to_excel(writer, sheet_name=f"{week}PBonusHrsComp", index=False)
+                    # excel_sheets.append(f"{week}PBonusHrsComp")
+
+                    reqhours_changes_df = compare_ReqHours(sheet_vdpmv_previous, sheet_vdpmv_latest, week)
+                    reqhours_changes_df.to_excel(writer, sheet_name=f"{week}ReqHrsComp", index=False)
+                    excel_sheets.append(f"{week}ReqHrsComp")
+    
         # Doperator_changes_df.to_excel(writer, sheet_name="DateComparison", index=False)
 
         # Apply formatting to the full comparison file
@@ -652,7 +762,7 @@ def main(file_previous, file_latest):
 
         logger.info(f"Main comparison process completed successfully. File saved to {full_comparison_file}.")
         # time.sleep(2)
-        db.main(file_previous, file_latest)
+        # db.main(file_previous, file_latest)
     except Exception as e:
         logger.error(f"Error in main comparison process: {e}")
         raise

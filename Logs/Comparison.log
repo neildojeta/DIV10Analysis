@@ -1,0 +1,20 @@
+2025-02-19 17:59:18,818 - INFO - Starting main comparison process.
+2025-02-19 17:59:18,820 - INFO - Loading sheets from the provided Excel files.
+2025-02-19 17:59:19,354 - INFO - Sheets loaded successfully.
+2025-02-19 17:59:19,363 - ERROR - Error in main comparison process: calculate_client_totals() missing 1 required positional argument: 'client'
+2025-02-19 18:01:02,586 - INFO - Starting main comparison process.
+2025-02-19 18:01:02,587 - INFO - Loading sheets from the provided Excel files.
+2025-02-19 18:01:03,103 - INFO - Sheets loaded successfully.
+2025-02-19 18:01:03,108 - WARNING - No header row found for client TRANSDEV in pr_sheet.
+2025-02-19 18:01:03,109 - WARNING - No header row found for client TRANSDEV in pr_sheet.
+2025-02-19 18:01:03,109 - INFO - Comparing Totals between previous and latest values.
+2025-02-19 18:01:03,111 - INFO - Totals comparison completed.
+2025-02-19 18:01:03,111 - ERROR - Error in main comparison process: compare_htotalrev() missing 1 required positional argument: 'client'
+2025-02-19 18:05:23,250 - INFO - Starting main comparison process.
+2025-02-19 18:05:23,252 - INFO - Loading sheets from the provided Excel files.
+2025-02-19 18:05:23,787 - INFO - Sheets loaded successfully.
+2025-02-19 18:05:23,795 - WARNING - No header row found for client TRANSDEV in pr_sheet.
+2025-02-19 18:05:23,796 - WARNING - No header row found for client TRANSDEV in pr_sheet.
+2025-02-19 18:05:23,796 - INFO - Comparing Totals between previous and latest values.
+2025-02-19 18:05:23,797 - INFO - Totals comparison completed.
+2025-02-19 18:05:23,797 - ERROR - Error in main comparison process: compare_htotalrev() missing 1 required positional argument: 'client'
