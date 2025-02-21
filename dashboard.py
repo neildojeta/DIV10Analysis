@@ -27,7 +27,9 @@ logger = logging.getLogger()
 def main(file_previous, file_latest): 
     logger.info(f"{file_previous} + {file_latest}")
     comparison_files = [
-        ('ComparedResults/DIV12_Tables.xlsx', 'Dashboard')
+        ('ComparedResults/DIV10_Tables.xlsx', 'Dashboard'),
+        ('ComparedResults/DIV10_TRANSDEV_Tables.xlsx', 'Transdev'),
+        ('ComparedResults/DIV10_UBER_Tables.xlsx', 'Uber')
     ]
 
     # Open the Dashboard workbook
@@ -59,18 +61,18 @@ def main(file_previous, file_latest):
             full_amount_diff_status = sheet_TotalInvoicePayment['D2'].value
 
             # Retrieve values from the 'HTotalRevComparison' sheet in the comparison file
-            prev_HTotalRev = f"{sum(cell.value for row in sheet_HTotalRevComparison.iter_rows(min_row=2, max_row=50, min_col=2, max_col=2) for cell in row if cell.value is not None):,.2f}"
-            lat_HTotalRev = f"{sum(cell.value for row in sheet_HTotalRevComparison.iter_rows(min_row=2, max_row=50, min_col=3, max_col=3) for cell in row if cell.value is not None):,.2f}"
+            lat_HTotalRev = f"{sum(cell.value for row in sheet_HTotalRevComparison.iter_rows(min_row=2, max_row=50, min_col=2, max_col=2) for cell in row if cell.value is not None):,.2f}"
+            prev_HTotalRev = f"{sum(cell.value for row in sheet_HTotalRevComparison.iter_rows(min_row=2, max_row=50, min_col=3, max_col=3) for cell in row if cell.value is not None):,.2f}"
             diff_HTotalRev = f"{sum(cell.value for row in sheet_HTotalRevComparison.iter_rows(min_row=2, max_row=50, min_col=4, max_col=4) for cell in row if cell.value is not None):,.2f}"
 
             # Retrieve values from the 'LiftLeaseComparison' sheet in the comparison file
-            prev_LeaseComp = f"{sum(cell.value for row in sheet_LiftLeaseComparison.iter_rows(min_row=2, max_row=50, min_col=2, max_col=2) for cell in row if cell.value is not None):,.2f}"
-            lat_LeaseComp = f"{sum(cell.value for row in sheet_LiftLeaseComparison.iter_rows(min_row=2, max_row=50, min_col=3, max_col=3) for cell in row if cell.value is not None):,.2f}"
+            lat_LeaseComp = f"{sum(cell.value for row in sheet_LiftLeaseComparison.iter_rows(min_row=2, max_row=50, min_col=2, max_col=2) for cell in row if cell.value is not None):,.2f}"
+            prev_LeaseComp = f"{sum(cell.value for row in sheet_LiftLeaseComparison.iter_rows(min_row=2, max_row=50, min_col=3, max_col=3) for cell in row if cell.value is not None):,.2f}"
             diff_LeaseComp = f"{sum(cell.value for row in sheet_LiftLeaseComparison.iter_rows(min_row=2, max_row=50, min_col=4, max_col=4) for cell in row if cell.value is not None):,.2f}"
 
             # Retrieve values from the 'ViolationComparison' sheet in the comparison file
-            prev_ViolationComp = f"{sum(cell.value for row in sheet_ViolationComparison.iter_rows(min_row=2, max_row=50, min_col=2, max_col=2) for cell in row if cell.value is not None):,.2f}"
-            lat_ViolationComp = f"{sum(cell.value for row in sheet_ViolationComparison.iter_rows(min_row=2, max_row=50, min_col=3, max_col=3) for cell in row if cell.value is not None):,.2f}"
+            lat_ViolationComp = f"{sum(cell.value for row in sheet_ViolationComparison.iter_rows(min_row=2, max_row=50, min_col=2, max_col=2) for cell in row if cell.value is not None):,.2f}"
+            prev_ViolationComp = f"{sum(cell.value for row in sheet_ViolationComparison.iter_rows(min_row=2, max_row=50, min_col=3, max_col=3) for cell in row if cell.value is not None):,.2f}"
             diff_ViolationComp = f"{sum(cell.value for row in sheet_ViolationComparison.iter_rows(min_row=2, max_row=50, min_col=4, max_col=4) for cell in row if cell.value is not None):,.2f}"
 
             # Retrieve values from the 'OperatorChanges' sheet in the comparison file
@@ -179,15 +181,17 @@ def main(file_previous, file_latest):
 
 def paste_picture():
     comparison_files = [
-        ('ComparedResults\\DIV12_Tables.xlsx', 'Dashboard')
+        ('ComparedResults/DIV10_Tables.xlsx', 'Dashboard'),
+        ('ComparedResults/DIV10_TRANSDEV_Tables.xlsx', 'Transdev'),
+        ('ComparedResults/DIV10_UBER_Tables.xlsx', 'Uber')
     ]
     
     # Target cells for each sheet in the comparison file
     target_cells = {
-        'ViolationComparison': (14, 26),
-        'HTotalRevComparison': (14, 12),
+        'ViolationComparison': (19, 28),
+        'HTotalRevComparison': (19, 12),
         # 'OperatorChanges': (22, 19),
-        'LiftLeaseComparison': (14, 19)
+        'LiftLeaseComparison': (19, 20)
     }
 
     relative_dashboard_path = "ComparedResults\\Dashboard.xlsm"
@@ -224,7 +228,7 @@ def paste_picture():
             return
 
         # Delete existing pictures if they exist
-        for target_sheet_name in ['Dashboard']:
+        for target_sheet_name in ['Dashboard', 'Transdev', 'Uber']:
             ws_dashboard = wb_dashboard.Sheets(target_sheet_name)
             ws_dashboard.Activate()
             # for picture_name in ['ViolationsTable', 'HoursTable', 'OperatorTable', 'LeaseTable']:
