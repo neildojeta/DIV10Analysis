@@ -583,6 +583,64 @@ def compare_pOnlineHours(sheet_previous, sheet_latest, week):
         logger.error(f"Error comparing Payable Online Hours for {week}: {e}")
         raise
 
+def find_missing_dates(sheet_previous, sheet_latest):
+    try:
+        logger.info("Checking for missing dates in the consecutive range.")
+        
+        # Extracting the Date column and dropping NaN values
+        dates_previous = set(pd.to_datetime(sheet_previous["Date"].dropna()))
+        dates_latest = set(pd.to_datetime(sheet_latest["Date"].dropna()))
+        
+        # Finding the full expected date range
+        all_dates = pd.date_range(min(dates_previous.union(dates_latest)), 
+                                  max(dates_previous.union(dates_latest)))
+        
+        # Finding missing dates
+        missing_dates = sorted(set(all_dates) - dates_previous - dates_latest)
+        
+        # Converting to DataFrame
+        if not missing_dates:
+            missing_df = pd.DataFrame({"Missing Dates of Work": ["There are no missing dates of work."]})
+        else:
+            # missing_df = pd.DataFrame(missing_dates, columns=["Missing Dates"])
+            missing_df = pd.DataFrame([date.strftime("-----  %B %d, %Y  -----") for date in missing_dates], columns=["Missing Dates of Work"])
+        
+        logger.info("Missing date check completed.")
+        return missing_df
+    except Exception as e:
+        logger.error(f"Error finding missing dates: {e}")
+        raise
+
+
+def compare_trips(sheet_previous, sheet_latest):
+    try:
+        logger.info("Comparing trips data between previous and latest sheets.")
+
+        # Group by "PARTNER NAME" and mean Acceptance Rate
+        prev_values = sheet_previous.groupby("Date", as_index=False)["Trips"].sum()
+        latest_values = sheet_latest.groupby("Date", as_index=False)["Trips"].sum()
+
+        # Merge both datasets
+        comparison = latest_values.merge(
+            prev_values, on="Date", how="outer", suffixes=("_LATEST", "_PREVIOUS")
+        ).fillna(0)
+
+        # Calculate the change
+        comparison["CHANGE"] = comparison["Trips_LATEST"] - comparison["Trips_PREVIOUS"]
+
+        # Format columns as percentages with 4 significant digits
+        for col in ["Trips_LATEST", "Trips_PREVIOUS", "CHANGE"]:
+            comparison[col] = comparison[col].round(2)
+
+        # Rename columns
+        comparison.columns = ["DATE", "LATEST", "PREVIOUS", "CHANGE"]
+
+        logger.info("Trips comparison completed.")
+        return comparison
+    except Exception as e:
+        logger.error(f"Error comparing trips: {e}")
+        raise
+
 def apply_formatting(sheet_name, wb):
     try:
         logger.info(f"Applying formatting to sheet: {sheet_name}.")
@@ -684,7 +742,7 @@ def main(file_previous, file_latest):
             totals_comparison_df = compare_totals(prev_totals, lat_totals)
             
             compare_htotalrev_df = compare_client_htotalrev(htotalprev, htotallatest, client)
-            logger.info(f"HTOTAL_REV DF: {compare_htotalrev_df}")
+            # logger.info(f"HTOTAL_REV DF: {compare_htotalrev_df}")
 
             # 3. Compare Lift Lease
             compare_liftlease_df = compare_liftlease(sheet_cdeductions_previous, sheet_cdeductions_latest, compare_htotalrev_df)
@@ -693,6 +751,10 @@ def main(file_previous, file_latest):
             # 4. Compare Violations
             compare_violations_df = compare_violations(sheet_cdeductions_previous, sheet_cdeductions_latest, compare_htotalrev_df)
             # logger.info(f"Violations DF: {compare_violations_df}")
+
+            # 5. Compare Trips
+            compare_trips_df = compare_trips(sheet_trapeze_previous, sheet_trapeze_latest)
+            # logger.info(f"Trips DF: {compare_trips_df}")
 
             # 5. Compare operators
             # operator_changes_df = compare_operators(sheet_partner_previous, sheet_partner_latest)
@@ -712,6 +774,9 @@ def main(file_previous, file_latest):
                 excel_sheets.append("LiftLeaseComparison")
                 compare_violations_df.to_excel(writer, sheet_name="ViolationComparison", index=False)
                 excel_sheets.append("ViolationComparison")
+                if client == "TRANSDEV":
+                    compare_trips_df.to_excel(writer, sheet_name="TripsComparison", index=False)
+                    excel_sheets.append("TripsComparison")
                 # operator_changes_df.to_excel(writer, sheet_name="OperatorChanges", index=False)
                 # excel_sheets.append("OperatorChanges")
 
@@ -801,7 +866,7 @@ def main(file_previous, file_latest):
 
         logger.info(f"Main comparison process completed successfully. File saved to {full_comparison_file}.")
         time.sleep(2)
-        # db.main(file_previous, file_latest)
+        db.main(file_previous, file_latest)
     except Exception as e:
         logger.error(f"Error in main comparison process: {e}")
         raise

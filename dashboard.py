@@ -49,7 +49,26 @@ def main(file_previous, file_latest):
             sheet_HTotalRevComparison = wb_comparison['HTotalRevComparison']
             sheet_LiftLeaseComparison = wb_comparison['LiftLeaseComparison']
             sheet_ViolationComparison = wb_comparison['ViolationComparison']
-            # sheet_OperatorChanges = wb_comparison['OperatorChanges']
+
+            sheet_TripsComparison = None
+            sheet_TripsComparison = None
+            lat_TripsComp = None
+            prev_TripsComp = None
+            diff_TripsComp = None
+            txt_Trips = None
+            txt_Trips_diff = None
+            if sheet_name == 'Transdev':
+                sheet_TripsComparison = wb_comparison['TripsComparison']
+                lat_TripsComp = f"{sum(cell.value for row in sheet_TripsComparison.iter_rows(min_row=2, max_row=50, min_col=2, max_col=2) for cell in row if cell.value is not None):,.2f}"
+                prev_TripsComp = f"{sum(cell.value for row in sheet_TripsComparison.iter_rows(min_row=2, max_row=50, min_col=3, max_col=3) for cell in row if cell.value is not None):,.2f}"
+                diff_TripsComp = f"{sum(cell.value for row in sheet_TripsComparison.iter_rows(min_row=2, max_row=50, min_col=4, max_col=4) for cell in row if cell.value is not None):,.2f}"
+
+                sheet_dashboard = wb_dashboard.sheets[sheet_name]
+                # Access the ViolationComparison shape via the API and set the value
+                txt_Trips = sheet_dashboard.shapes['txtDTripsDiff'].api
+                txt_Trips.TextFrame2.TextRange.Text = f"{prev_TripsComp} to {lat_TripsComp} trips"
+                txt_Trips_diff = sheet_dashboard.shapes['txtTripsDiff'].api
+                txt_Trips_diff.TextFrame2.TextRange.Text = f"{diff_TripsComp} trips"
             # paste_picture(comparison_files, dashboard_file)
 
             # Retrieve Payment values from the 'TotalInvoicePayment' sheet in the comparison file
@@ -127,6 +146,8 @@ def main(file_previous, file_latest):
             # txt_Operator.TextFrame2.TextRange.Text = f"{prev_OperatorChanges} to {lat_OperatorChanges} operators"
             # txt_Operator_diff = sheet_dashboard.shapes['txtOperatorsDiff'].api
             # txt_Operator_diff.TextFrame2.TextRange.Text = f"{diff_OperatorChanges} operators"
+            
+
 
             # Run the VBA macro to update the color based on the status
             try:
@@ -148,6 +169,10 @@ def main(file_previous, file_latest):
 
                 textBoxNames = ["txtHTotalRevDiff", "txtLLeaseDiff", "txtViolationsDiff"]
                 values = [diff_HTotalRev, diff_LeaseComp, diff_ViolationComp]
+
+                if sheet_name == 'Transdev':
+                    textBoxNames = ["txtHTotalRevDiff", "txtLLeaseDiff", "txtViolationsDiff", "txtTripsDiff"]
+                    values = [diff_HTotalRev, diff_LeaseComp, diff_ViolationComp, diff_TripsComp]
 
                 # Loop through the text boxes and update colors based on the values
                 for i, textBoxName in enumerate(textBoxNames):
@@ -232,7 +257,11 @@ def paste_picture():
             ws_dashboard = wb_dashboard.Sheets(target_sheet_name)
             ws_dashboard.Activate()
             # for picture_name in ['ViolationsTable', 'HoursTable', 'OperatorTable', 'LeaseTable']:
-            for picture_name in ['ViolationsTable', 'HoursTable', 'LeaseTable']:
+            picname = ['ViolationsTable', 'HoursTable', 'LeaseTable']
+            if target_sheet_name == 'Transdev': 
+                picname = ['ViolationsTable', 'HoursTable', 'LeaseTable', 'TripsTable']
+            for picture_name in picname:
+                logger.info(f"Picture name: {picture_name} found in {target_sheet_name}") 
                 try:
                     ws_dashboard.Shapes(picture_name).Delete()  # Attempt to delete the picture
                     logger.info(f"Deleted existing picture: {picture_name} in {target_sheet_name}")
@@ -245,7 +274,14 @@ def paste_picture():
         for comparison_file, target_sheet_name in comparison_files:
             # Build the full path for the comparison file
             comparison_file_path = os.path.join(script_dir, comparison_file)
-            
+
+            target_cells = {
+                'ViolationComparison': (19, 28),
+                'HTotalRevComparison': (19, 12),
+                # 'OperatorChanges': (22, 19),
+                'LiftLeaseComparison': (19, 20)
+            }
+                    
             # Check if the comparison file exists
             if not os.path.exists(comparison_file_path):
                 logger.info(f"Error: Comparison file does not exist at {comparison_file_path}")
@@ -256,6 +292,14 @@ def paste_picture():
             if wb_comparison is None:
                 logger.info(f"Failed to open the comparison workbook at {comparison_file_path}")
                 continue
+            if target_sheet_name == 'Transdev':
+                target_cells = {
+                    'ViolationComparison': (45, 12),
+                    'HTotalRevComparison': (19, 12),
+                    # 'OperatorChanges': (22, 19),
+                    'LiftLeaseComparison': (45, 2),
+                    'TripsComparison': (19, 20)
+                }
 
             # Process each sheet in the comparison file (ViolationComparison, HTotalRevComparison, OperatorChanges)
             for sheet_name, target_cell in target_cells.items():
@@ -312,6 +356,8 @@ def paste_picture():
                 #     pasted_picture.Name = 'OperatorTable'
                 elif sheet_name == 'LiftLeaseComparison':
                     pasted_picture.Name = 'LeaseTable'
+                elif sheet_name == 'TripsComparison':
+                    pasted_picture.Name = 'TripsTable'
 
                 table_name = pasted_picture.Name
                 logger.info(f"Table Name: {table_name}")
