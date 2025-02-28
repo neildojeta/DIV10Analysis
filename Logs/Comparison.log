@@ -9390,3 +9390,1143 @@ Index: []
 2025-02-22 00:29:41,062 - INFO - 'ReqTable' successfully pasted in the Week 2ReqHrsComp Sheet.
 2025-02-22 00:29:41,097 - INFO - Resized ReqContainer to width: 8.93 cm, height: 4.62 cm
 2025-02-22 00:29:42,292 - INFO - Data pasted as pictures successfully.
+2025-02-23 21:18:47,539 - INFO - Starting main comparison process.
+2025-02-23 21:18:47,540 - INFO - Loading sheets from the provided Excel files.
+2025-02-23 21:18:48,896 - INFO - Sheets loaded successfully.
+2025-02-23 21:18:48,908 - INFO - Total Clients: TRANSDEV
+2025-02-23 21:18:48,908 - INFO - Client in total: DIV10_TRIMET
+2025-02-23 21:18:48,911 - INFO - Found client header for DIV10_TRIMET at row 3.
+2025-02-23 21:18:48,911 - INFO - Partner rows for client DIV10_TRIMET are between rows 4 and 17.
+2025-02-23 21:18:48,912 - INFO - Total partners for DIV10_TRIMET: 10
+2025-02-23 21:18:48,913 - INFO - Partner: ANGELES TRANSPORTATION, LLC
+2025-02-23 21:18:48,913 - INFO - Amount for partner ANGELES TRANSPORTATION, LLC: 2145.4169
+2025-02-23 21:18:48,913 - INFO - Current Amount for partner ANGELES TRANSPORTATION, LLC: 2145.4169
+2025-02-23 21:18:48,914 - INFO - Partner: ARISESIZ LLC
+2025-02-23 21:18:48,914 - INFO - Amount for partner ARISESIZ LLC: 3218.9491
+2025-02-23 21:18:48,915 - INFO - Current Amount for partner ARISESIZ LLC: 5364.366
+2025-02-23 21:18:48,916 - INFO - Partner: EDIS OSMANOVIC
+2025-02-23 21:18:48,917 - INFO - Amount for partner EDIS OSMANOVIC: 2331.56
+2025-02-23 21:18:48,917 - INFO - Current Amount for partner EDIS OSMANOVIC: 7695.9259999999995
+2025-02-23 21:18:48,919 - INFO - Partner: FLASH LOGISTICS LLC
+2025-02-23 21:18:48,919 - INFO - Amount for partner FLASH LOGISTICS LLC: 2258.0717
+2025-02-23 21:18:48,919 - INFO - Current Amount for partner FLASH LOGISTICS LLC: 9953.9977
+2025-02-23 21:18:48,921 - INFO - Partner: JUST EASY ACCESS RIDE LLC
+2025-02-23 21:18:48,921 - INFO - Amount for partner JUST EASY ACCESS RIDE LLC: 2310.6002
+2025-02-23 21:18:48,922 - INFO - Current Amount for partner JUST EASY ACCESS RIDE LLC: 12264.5979
+2025-02-23 21:18:48,923 - INFO - Partner: MTIGER TRANSPORTATION
+2025-02-23 21:18:48,924 - INFO - Amount for partner MTIGER TRANSPORTATION: 2417.7586
+2025-02-23 21:18:48,924 - INFO - Current Amount for partner MTIGER TRANSPORTATION: 14682.356500000002
+2025-02-23 21:18:48,925 - INFO - Partner: MVO TRANSPORTATION
+2025-02-23 21:18:48,926 - INFO - Amount for partner MVO TRANSPORTATION: 1470.2519
+2025-02-23 21:18:48,927 - INFO - Current Amount for partner MVO TRANSPORTATION: 16152.608400000001
+2025-02-23 21:18:48,928 - INFO - Partner: PAUL KENNEDY
+2025-02-23 21:18:48,929 - INFO - Amount for partner PAUL KENNEDY: 1288.2984000000001
+2025-02-23 21:18:48,929 - INFO - Current Amount for partner PAUL KENNEDY: 17440.9068
+2025-02-23 21:18:48,930 - INFO - Partner: SANVIN VOYAGE LLC
+2025-02-23 21:18:48,931 - INFO - Amount for partner SANVIN VOYAGE LLC: 2188.052
+2025-02-23 21:18:48,931 - INFO - Current Amount for partner SANVIN VOYAGE LLC: 19628.9588
+2025-02-23 21:18:48,932 - INFO - Partner: VAMONOS TRANSPORTATION LLC
+2025-02-23 21:18:48,933 - INFO - Amount for partner VAMONOS TRANSPORTATION LLC: 2350.7892
+2025-02-23 21:18:48,933 - INFO - Current Amount for partner VAMONOS TRANSPORTATION LLC: 21979.748
+2025-02-23 21:18:48,933 - INFO - Total amount for client DIV10_TRIMET: 21979.748
+2025-02-23 21:18:48,934 - INFO - Total calculated mamount:21979.748
+2025-02-23 21:18:48,935 - INFO - Found client header for DIV10_TRIMET at row 3.
+2025-02-23 21:18:48,936 - INFO - Partner rows for client DIV10_TRIMET are between rows 4 and 18.
+2025-02-23 21:18:48,936 - INFO - Total partners for DIV10_TRIMET: 11
+2025-02-23 21:18:48,938 - INFO - Partner: ANGELES TRANSPORTATION, LLC
+2025-02-23 21:18:48,938 - INFO - Amount for partner ANGELES TRANSPORTATION, LLC: 1378.4144999999999
+2025-02-23 21:18:48,939 - INFO - Current Amount for partner ANGELES TRANSPORTATION, LLC: 1378.4144999999999
+2025-02-23 21:18:48,940 - INFO - Partner: ARISESIZ LLC
+2025-02-23 21:18:48,941 - INFO - Amount for partner ARISESIZ LLC: 0
+2025-02-23 21:18:48,941 - INFO - Current Amount for partner ARISESIZ LLC: 1378.4144999999999
+2025-02-23 21:18:48,942 - INFO - Partner: DEAUNDREY WRIGHT
+2025-02-23 21:18:48,943 - INFO - Amount for partner DEAUNDREY WRIGHT: 1352.3043
+2025-02-23 21:18:48,943 - INFO - Current Amount for partner DEAUNDREY WRIGHT: 2730.7187999999996
+2025-02-23 21:18:48,944 - INFO - Partner: FLASH LOGISTICS LLC
+2025-02-23 21:18:48,944 - INFO - Amount for partner FLASH LOGISTICS LLC: 2387.6718
+2025-02-23 21:18:48,944 - INFO - Current Amount for partner FLASH LOGISTICS LLC: 5118.3906
+2025-02-23 21:18:48,945 - INFO - Partner: JUST EASY ACCESS RIDE LLC
+2025-02-23 21:18:48,946 - INFO - Amount for partner JUST EASY ACCESS RIDE LLC: 2058.5289000000002
+2025-02-23 21:18:48,946 - INFO - Current Amount for partner JUST EASY ACCESS RIDE LLC: 7176.9195
+2025-02-23 21:18:48,947 - INFO - Partner: MTIGER TRANSPORTATION
+2025-02-23 21:18:48,948 - INFO - Amount for partner MTIGER TRANSPORTATION: 2027.3135000000002
+2025-02-23 21:18:48,948 - INFO - Current Amount for partner MTIGER TRANSPORTATION: 9204.233
+2025-02-23 21:18:48,949 - INFO - Partner: MVO TRANSPORTATION
+2025-02-23 21:18:48,949 - INFO - Amount for partner MVO TRANSPORTATION: 1723.2928
+2025-02-23 21:18:48,949 - INFO - Current Amount for partner MVO TRANSPORTATION: 10927.5258
+2025-02-23 21:18:48,950 - INFO - Partner: SAFE DESTINATION TRANSPORTATION LLC
+2025-02-23 21:18:48,951 - INFO - Amount for partner SAFE DESTINATION TRANSPORTATION LLC: 3000.0762
+2025-02-23 21:18:48,951 - INFO - Current Amount for partner SAFE DESTINATION TRANSPORTATION LLC: 13927.601999999999
+2025-02-23 21:18:48,952 - INFO - Partner: SANVIN VOYAGE LLC
+2025-02-23 21:18:48,953 - INFO - Amount for partner SANVIN VOYAGE LLC: 1712.1204
+2025-02-23 21:18:48,953 - INFO - Current Amount for partner SANVIN VOYAGE LLC: 15639.722399999999
+2025-02-23 21:18:48,954 - INFO - Partner: SUITE CHARRIOT MOBILITY LLC
+2025-02-23 21:18:48,955 - INFO - Amount for partner SUITE CHARRIOT MOBILITY LLC: 3037.1858
+2025-02-23 21:18:48,955 - INFO - Current Amount for partner SUITE CHARRIOT MOBILITY LLC: 18676.908199999998
+2025-02-23 21:18:48,957 - INFO - Partner: VAMONOS TRANSPORTATION LLC
+2025-02-23 21:18:48,957 - INFO - Amount for partner VAMONOS TRANSPORTATION LLC: 267.2
+2025-02-23 21:18:48,958 - INFO - Current Amount for partner VAMONOS TRANSPORTATION LLC: 18944.1082
+2025-02-23 21:18:48,958 - INFO - Total amount for client DIV10_TRIMET: 18944.1082
+2025-02-23 21:18:48,958 - INFO - Total calculated mamount:18944.1082
+2025-02-23 21:18:48,959 - INFO - Comparing Totals between previous and latest values.
+2025-02-23 21:18:48,960 - INFO - Totals comparison completed.
+2025-02-23 21:18:48,961 - INFO - Comparing Hourly Total Revs between previous and latest sheets.
+2025-02-23 21:18:48,961 - INFO - HTOTAL Client: TRANSDEV
+2025-02-23 21:18:48,974 - INFO - HTOTALREV comparison completed.
+2025-02-23 21:18:48,974 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-23 21:18:48,983 - INFO - Lift Lease comparison completed.
+2025-02-23 21:18:48,984 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-23 21:18:48,992 - INFO - Violation comparison completed.
+2025-02-23 21:18:48,993 - INFO - Comparing trips data between previous and latest sheets.
+2025-02-23 21:18:49,001 - INFO - Trips comparison completed.
+2025-02-23 21:18:49,114 - INFO - Applying formatting to sheet: TotalInvoicePayment.
+2025-02-23 21:18:49,116 - INFO - Formatting applied successfully to sheet: TotalInvoicePayment.
+2025-02-23 21:18:49,116 - INFO - Applying formatting to sheet: HTotalRevComparison.
+2025-02-23 21:18:49,122 - INFO - Formatting applied successfully to sheet: HTotalRevComparison.
+2025-02-23 21:18:49,122 - INFO - Applying formatting to sheet: LiftLeaseComparison.
+2025-02-23 21:18:49,127 - INFO - Formatting applied successfully to sheet: LiftLeaseComparison.
+2025-02-23 21:18:49,128 - INFO - Applying formatting to sheet: ViolationComparison.
+2025-02-23 21:18:49,132 - INFO - Formatting applied successfully to sheet: ViolationComparison.
+2025-02-23 21:18:49,132 - INFO - Applying formatting to sheet: TripsComparison.
+2025-02-23 21:18:49,142 - INFO - Formatting applied successfully to sheet: TripsComparison.
+2025-02-23 21:18:49,214 - INFO - Total Clients: UBER
+2025-02-23 21:18:49,214 - INFO - Client in total: UBER WAV TRANSIT
+2025-02-23 21:18:49,215 - INFO - Found client header for UBER WAV TRANSIT at row 33.
+2025-02-23 21:18:49,216 - INFO - Partner rows for client UBER WAV TRANSIT are between rows 34 and 73.
+2025-02-23 21:18:49,216 - INFO - Total partners for UBER WAV TRANSIT: 6
+2025-02-23 21:18:49,218 - INFO - Partner: BAMS TRANSIT
+2025-02-23 21:18:49,218 - INFO - Amount for partner BAMS TRANSIT: 2818.42
+2025-02-23 21:18:49,218 - INFO - Current Amount for partner BAMS TRANSIT: 2818.42
+2025-02-23 21:18:49,219 - INFO - Partner: DHARON DEPASS
+2025-02-23 21:18:49,219 - INFO - Amount for partner DHARON DEPASS: 2010.5
+2025-02-23 21:18:49,220 - INFO - Current Amount for partner DHARON DEPASS: 4828.92
+2025-02-23 21:18:49,221 - INFO - Partner: DOMINIQUE CARR
+2025-02-23 21:18:49,221 - INFO - Amount for partner DOMINIQUE CARR: 2052
+2025-02-23 21:18:49,221 - INFO - Current Amount for partner DOMINIQUE CARR: 6880.92
+2025-02-23 21:18:49,222 - INFO - Partner: FLASH LOGISTICS LLC
+2025-02-23 21:18:49,222 - INFO - Amount for partner FLASH LOGISTICS LLC: 0
+2025-02-23 21:18:49,223 - INFO - Current Amount for partner FLASH LOGISTICS LLC: 6880.92
+2025-02-23 21:18:49,223 - INFO - Partner: JAMAAL PERRY
+2025-02-23 21:18:49,224 - INFO - Amount for partner JAMAAL PERRY: 1245.5
+2025-02-23 21:18:49,224 - INFO - Current Amount for partner JAMAAL PERRY: 8126.42
+2025-02-23 21:18:49,225 - INFO - Partner: ROADRUNNERLIFT23 LLC
+2025-02-23 21:18:49,225 - INFO - Amount for partner ROADRUNNERLIFT23 LLC: 1396.8575
+2025-02-23 21:18:49,226 - INFO - Current Amount for partner ROADRUNNERLIFT23 LLC: 9523.2775
+2025-02-23 21:18:49,226 - INFO - Total amount for client UBER WAV TRANSIT: 9523.2775
+2025-02-23 21:18:49,226 - INFO - Total calculated mamount:9523.2775
+2025-02-23 21:18:49,227 - INFO - Found client header for UBER WAV TRANSIT at row 33.
+2025-02-23 21:18:49,228 - INFO - Partner rows for client UBER WAV TRANSIT are between rows 34 and 73.
+2025-02-23 21:18:49,228 - INFO - Total partners for UBER WAV TRANSIT: 6
+2025-02-23 21:18:49,229 - INFO - Partner: BAMS TRANSIT
+2025-02-23 21:18:49,230 - INFO - Amount for partner BAMS TRANSIT: 2414.12
+2025-02-23 21:18:49,230 - INFO - Current Amount for partner BAMS TRANSIT: 2414.12
+2025-02-23 21:18:49,231 - INFO - Partner: CARR TRANSIT LLC
+2025-02-23 21:18:49,231 - INFO - Amount for partner CARR TRANSIT LLC: 1797.7462
+2025-02-23 21:18:49,231 - INFO - Current Amount for partner CARR TRANSIT LLC: 4211.8662
+2025-02-23 21:18:49,232 - INFO - Partner: FLASH LOGISTICS LLC
+2025-02-23 21:18:49,233 - INFO - Amount for partner FLASH LOGISTICS LLC: 0
+2025-02-23 21:18:49,233 - INFO - Current Amount for partner FLASH LOGISTICS LLC: 4211.8662
+2025-02-23 21:18:49,235 - INFO - Partner: JAMAAL PERRY
+2025-02-23 21:18:49,235 - INFO - Amount for partner JAMAAL PERRY: 0
+2025-02-23 21:18:49,236 - INFO - Current Amount for partner JAMAAL PERRY: 4211.8662
+2025-02-23 21:18:49,237 - INFO - Partner: RIDEPASS, LLC
+2025-02-23 21:18:49,237 - INFO - Amount for partner RIDEPASS, LLC: 2223.66
+2025-02-23 21:18:49,238 - INFO - Current Amount for partner RIDEPASS, LLC: 6435.5262
+2025-02-23 21:18:49,239 - INFO - Partner: ROADRUNNERLIFT23 LLC
+2025-02-23 21:18:49,240 - INFO - Amount for partner ROADRUNNERLIFT23 LLC: 2986
+2025-02-23 21:18:49,240 - INFO - Current Amount for partner ROADRUNNERLIFT23 LLC: 9421.5262
+2025-02-23 21:18:49,240 - INFO - Total amount for client UBER WAV TRANSIT: 9421.5262
+2025-02-23 21:18:49,241 - INFO - Total calculated mamount:9421.5262
+2025-02-23 21:18:49,241 - INFO - Comparing Totals between previous and latest values.
+2025-02-23 21:18:49,242 - INFO - Totals comparison completed.
+2025-02-23 21:18:49,243 - INFO - Comparing Hourly Total Revs between previous and latest sheets.
+2025-02-23 21:18:49,243 - INFO - HTOTAL Client: UBER
+2025-02-23 21:18:49,249 - INFO - HTOTALREV comparison completed.
+2025-02-23 21:18:49,249 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-23 21:18:49,258 - INFO - Lift Lease comparison completed.
+2025-02-23 21:18:49,259 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-23 21:18:49,267 - INFO - Violation comparison completed.
+2025-02-23 21:18:49,267 - INFO - Comparing trips data between previous and latest sheets.
+2025-02-23 21:18:49,273 - INFO - Trips comparison completed.
+2025-02-23 21:18:49,358 - INFO - Applying formatting to sheet: TotalInvoicePayment.
+2025-02-23 21:18:49,360 - INFO - Formatting applied successfully to sheet: TotalInvoicePayment.
+2025-02-23 21:18:49,360 - INFO - Applying formatting to sheet: HTotalRevComparison.
+2025-02-23 21:18:49,364 - INFO - Formatting applied successfully to sheet: HTotalRevComparison.
+2025-02-23 21:18:49,364 - INFO - Applying formatting to sheet: LiftLeaseComparison.
+2025-02-23 21:18:49,367 - INFO - Formatting applied successfully to sheet: LiftLeaseComparison.
+2025-02-23 21:18:49,368 - INFO - Applying formatting to sheet: ViolationComparison.
+2025-02-23 21:18:49,370 - INFO - Formatting applied successfully to sheet: ViolationComparison.
+2025-02-23 21:18:49,443 - INFO - Total amount for client UBER: 9523.2775
+2025-02-23 21:18:49,444 - INFO - Total calculated mamount:31503.0255
+2025-02-23 21:18:49,462 - INFO - Total amount for client UBER: 9421.5262
+2025-02-23 21:18:49,463 - INFO - Total calculated mamount:28365.6344
+2025-02-23 21:18:49,463 - INFO - Comparing Totals between previous and latest values.
+2025-02-23 21:18:49,464 - INFO - Totals comparison completed.
+2025-02-23 21:18:49,464 - INFO - Comparing Hourly Total Revs between previous and latest sheets.
+2025-02-23 21:18:49,477 - INFO - HTOTALREV comparison completed.
+2025-02-23 21:18:49,477 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-23 21:18:49,484 - INFO - Lift Lease comparison completed.
+2025-02-23 21:18:49,485 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-23 21:18:49,492 - INFO - Violation comparison completed.
+2025-02-23 21:18:49,500 - INFO - Comparing Acceptance Rate for Week 1.
+2025-02-23 21:18:49,507 - INFO - Week 1 Acceptance Rate comparison completed.
+2025-02-23 21:18:49,508 - INFO - Comparing Cancellation Rate for Week 1.
+2025-02-23 21:18:49,514 - INFO - Week 1 Cancellation Rate comparison completed.
+2025-02-23 21:18:49,515 - INFO - Comparing Utilization% for Week 1.
+2025-02-23 21:18:49,522 - INFO - Week 1 Utilization% comparison completed.
+2025-02-23 21:18:49,524 - INFO - Comparing Payable Online Hours for Week 1.
+2025-02-23 21:18:49,529 - INFO - Week 1 Payable Online Hours comparison completed.
+2025-02-23 21:18:49,531 - INFO - Comparing Required Hours for Week 1.
+2025-02-23 21:18:49,538 - INFO - Week 1 Required Hours comparison completed.
+2025-02-23 21:18:49,540 - INFO - Comparing Acceptance Rate for Week 2.
+2025-02-23 21:18:49,545 - INFO - Week 2 Acceptance Rate comparison completed.
+2025-02-23 21:18:49,547 - INFO - Comparing Cancellation Rate for Week 2.
+2025-02-23 21:18:49,606 - INFO - Week 2 Cancellation Rate comparison completed.
+2025-02-23 21:18:49,608 - INFO - Comparing Utilization% for Week 2.
+2025-02-23 21:18:49,614 - INFO - Week 2 Utilization% comparison completed.
+2025-02-23 21:18:49,616 - INFO - Comparing Payable Online Hours for Week 2.
+2025-02-23 21:18:49,622 - INFO - Week 2 Payable Online Hours comparison completed.
+2025-02-23 21:18:49,624 - INFO - Comparing Required Hours for Week 2.
+2025-02-23 21:18:49,629 - INFO - Week 2 Required Hours comparison completed.
+2025-02-23 21:18:49,839 - INFO - Applying formatting to sheet: TotalInvoicePayment.
+2025-02-23 21:18:49,840 - INFO - Formatting applied successfully to sheet: TotalInvoicePayment.
+2025-02-23 21:18:49,841 - INFO - Applying formatting to sheet: HTotalRevComparison.
+2025-02-23 21:18:49,850 - INFO - Formatting applied successfully to sheet: HTotalRevComparison.
+2025-02-23 21:18:49,850 - INFO - Applying formatting to sheet: LiftLeaseComparison.
+2025-02-23 21:18:49,858 - INFO - Formatting applied successfully to sheet: LiftLeaseComparison.
+2025-02-23 21:18:49,859 - INFO - Applying formatting to sheet: ViolationComparison.
+2025-02-23 21:18:49,865 - INFO - Formatting applied successfully to sheet: ViolationComparison.
+2025-02-23 21:18:49,865 - INFO - Applying formatting to sheet: Week 1AcceptRateComp.
+2025-02-23 21:18:49,869 - INFO - Formatting applied successfully to sheet: Week 1AcceptRateComp.
+2025-02-23 21:18:49,869 - INFO - Applying formatting to sheet: Week 1CancelRateComp.
+2025-02-23 21:18:49,872 - INFO - Formatting applied successfully to sheet: Week 1CancelRateComp.
+2025-02-23 21:18:49,873 - INFO - Applying formatting to sheet: Week 1UtilizationComp.
+2025-02-23 21:18:49,876 - INFO - Formatting applied successfully to sheet: Week 1UtilizationComp.
+2025-02-23 21:18:49,876 - INFO - Applying formatting to sheet: Week 1POnlineHrsComp.
+2025-02-23 21:18:49,879 - INFO - Formatting applied successfully to sheet: Week 1POnlineHrsComp.
+2025-02-23 21:18:49,880 - INFO - Applying formatting to sheet: Week 1ReqHrsComp.
+2025-02-23 21:18:49,883 - INFO - Formatting applied successfully to sheet: Week 1ReqHrsComp.
+2025-02-23 21:18:49,883 - INFO - Applying formatting to sheet: Week 2AcceptRateComp.
+2025-02-23 21:18:49,886 - INFO - Formatting applied successfully to sheet: Week 2AcceptRateComp.
+2025-02-23 21:18:49,887 - INFO - Applying formatting to sheet: Week 2CancelRateComp.
+2025-02-23 21:18:49,889 - INFO - Formatting applied successfully to sheet: Week 2CancelRateComp.
+2025-02-23 21:18:49,889 - INFO - Applying formatting to sheet: Week 2UtilizationComp.
+2025-02-23 21:18:49,892 - INFO - Formatting applied successfully to sheet: Week 2UtilizationComp.
+2025-02-23 21:18:49,893 - INFO - Applying formatting to sheet: Week 2POnlineHrsComp.
+2025-02-23 21:18:49,895 - INFO - Formatting applied successfully to sheet: Week 2POnlineHrsComp.
+2025-02-23 21:18:49,896 - INFO - Applying formatting to sheet: Week 2ReqHrsComp.
+2025-02-23 21:18:49,899 - INFO - Formatting applied successfully to sheet: Week 2ReqHrsComp.
+2025-02-23 21:18:50,081 - INFO - Main comparison process completed successfully. File saved to ComparedResults\DIV10_Tables.xlsx.
+2025-02-23 21:18:52,081 - INFO - VDP_DIV10_1202_1215_FINAL.xlsm + VDP_DIV10_1216_1229_FINAL.xlsm
+2025-02-23 21:18:54,463 - INFO - Successfully updated color for TextBox 90 with status 'Decreased'.
+2025-02-23 21:18:54,468 - INFO - Successfully updated color for txtHTotalRevDiff with value '-5,283.25'.
+2025-02-23 21:18:54,471 - INFO - Successfully updated color for txtLLeaseDiff with value '-185.00'.
+2025-02-23 21:18:54,480 - INFO - Successfully updated color for txtViolationsDiff with value '450.00'.
+2025-02-23 21:18:54,793 - INFO - Successfully updated color for TextBox 90 with status 'Decreased'.
+2025-02-23 21:18:54,809 - INFO - Successfully updated color for txtHTotalRevDiff with value '-5,181.50'.
+2025-02-23 21:18:54,841 - INFO - Successfully updated color for txtLLeaseDiff with value '-185.00'.
+2025-02-23 21:18:54,856 - INFO - Successfully updated color for txtViolationsDiff with value '450.00'.
+2025-02-23 21:18:54,871 - INFO - Successfully updated color for txtTripsDiff with value '-241'.
+2025-02-23 21:18:54,966 - INFO - Successfully updated color for TextBox 90 with status 'Decreased'.
+2025-02-23 21:18:54,969 - INFO - Successfully updated color for txtHTotalRevDiff with value '-101.75'.
+2025-02-23 21:18:54,971 - INFO - Successfully updated color for txtLLeaseDiff with value '0.00'.
+2025-02-23 21:18:54,974 - INFO - Successfully updated color for txtViolationsDiff with value '0.00'.
+2025-02-23 21:18:56,192 - INFO - ComparedResults/Dashboard.xlsm has been successfully updated and saved.
+2025-02-23 21:18:59,702 - INFO - Picture name: ViolationsTable found in Dashboard
+2025-02-23 21:18:59,796 - INFO - Deleted existing picture: ViolationsTable in Dashboard
+2025-02-23 21:18:59,796 - INFO - Picture name: HoursTable found in Dashboard
+2025-02-23 21:18:59,799 - INFO - Deleted existing picture: HoursTable in Dashboard
+2025-02-23 21:18:59,799 - INFO - Picture name: LeaseTable found in Dashboard
+2025-02-23 21:18:59,804 - INFO - Deleted existing picture: LeaseTable in Dashboard
+2025-02-23 21:18:59,873 - INFO - Picture name: ViolationsTable found in Transdev
+2025-02-23 21:18:59,887 - INFO - Deleted existing picture: ViolationsTable in Transdev
+2025-02-23 21:18:59,887 - INFO - Picture name: HoursTable found in Transdev
+2025-02-23 21:18:59,891 - INFO - Deleted existing picture: HoursTable in Transdev
+2025-02-23 21:18:59,891 - INFO - Picture name: LeaseTable found in Transdev
+2025-02-23 21:18:59,901 - INFO - Deleted existing picture: LeaseTable in Transdev
+2025-02-23 21:18:59,902 - INFO - Picture name: TripsTable found in Transdev
+2025-02-23 21:18:59,914 - INFO - Deleted existing picture: TripsTable in Transdev
+2025-02-23 21:18:59,981 - INFO - Picture name: ViolationsTable found in Uber
+2025-02-23 21:19:00,006 - INFO - Deleted existing picture: ViolationsTable in Uber
+2025-02-23 21:19:00,007 - INFO - Picture name: HoursTable found in Uber
+2025-02-23 21:19:00,012 - INFO - Deleted existing picture: HoursTable in Uber
+2025-02-23 21:19:00,012 - INFO - Picture name: LeaseTable found in Uber
+2025-02-23 21:19:00,023 - INFO - Deleted existing picture: LeaseTable in Uber
+2025-02-23 21:19:03,342 - INFO - Copied picture from ViolationComparison, width: 11.67 cm, height: 11.11 cm
+2025-02-23 21:19:04,612 - INFO - Table Name: ViolationsTable
+2025-02-23 21:19:05,613 - INFO - 'ViolationsTable' successfully pasted in the ViolationComparison Sheet.
+2025-02-23 21:19:05,679 - INFO - Resized ViolationsContainer to width: 11.70 cm, height: 13.09 cm
+2025-02-23 21:19:06,705 - INFO - Copied picture from HTotalRevComparison, width: 12.04 cm, height: 11.11 cm
+2025-02-23 21:19:07,823 - INFO - Table Name: HoursTable
+2025-02-23 21:19:08,825 - INFO - 'HoursTable' successfully pasted in the HTotalRevComparison Sheet.
+2025-02-23 21:19:08,851 - INFO - Resized HoursContainer to width: 12.07 cm, height: 13.09 cm
+2025-02-23 21:19:09,877 - INFO - Copied picture from LiftLeaseComparison, width: 11.67 cm, height: 11.11 cm
+2025-02-23 21:19:10,977 - INFO - Table Name: LeaseTable
+2025-02-23 21:19:11,978 - INFO - 'LeaseTable' successfully pasted in the LiftLeaseComparison Sheet.
+2025-02-23 21:19:12,001 - INFO - Resized LeaseContainer to width: 11.70 cm, height: 13.09 cm
+2025-02-23 21:19:13,335 - INFO - Copied picture from ViolationComparison, width: 11.67 cm, height: 7.41 cm
+2025-02-23 21:19:14,417 - INFO - Table Name: ViolationsTable
+2025-02-23 21:19:15,418 - INFO - 'ViolationsTable' successfully pasted in the ViolationComparison Sheet.
+2025-02-23 21:19:15,445 - INFO - Resized ViolationsContainer to width: 11.70 cm, height: 9.38 cm
+2025-02-23 21:19:16,468 - INFO - Copied picture from HTotalRevComparison, width: 11.85 cm, height: 7.41 cm
+2025-02-23 21:19:17,536 - INFO - Table Name: HoursTable
+2025-02-23 21:19:18,537 - INFO - 'HoursTable' successfully pasted in the HTotalRevComparison Sheet.
+2025-02-23 21:19:18,563 - INFO - Resized HoursContainer to width: 11.89 cm, height: 9.38 cm
+2025-02-23 21:19:19,588 - INFO - Copied picture from LiftLeaseComparison, width: 11.67 cm, height: 7.41 cm
+2025-02-23 21:19:20,684 - INFO - Table Name: LeaseTable
+2025-02-23 21:19:21,686 - INFO - 'LeaseTable' successfully pasted in the LiftLeaseComparison Sheet.
+2025-02-23 21:19:21,709 - INFO - Resized LeaseContainer to width: 11.70 cm, height: 9.38 cm
+2025-02-23 21:19:22,783 - INFO - Copied picture from TripsComparison, width: 8.70 cm, height: 12.70 cm
+2025-02-23 21:19:23,856 - INFO - Table Name: TripsTable
+2025-02-23 21:19:24,857 - INFO - 'TripsTable' successfully pasted in the TripsComparison Sheet.
+2025-02-23 21:19:24,883 - INFO - Resized TripsContainer to width: 8.74 cm, height: 14.68 cm
+2025-02-23 21:19:26,229 - INFO - Copied picture from ViolationComparison, width: 8.89 cm, height: 4.23 cm
+2025-02-23 21:19:27,350 - INFO - Table Name: ViolationsTable
+2025-02-23 21:19:28,352 - INFO - 'ViolationsTable' successfully pasted in the ViolationComparison Sheet.
+2025-02-23 21:19:28,377 - INFO - Resized ViolationsContainer to width: 8.93 cm, height: 6.21 cm
+2025-02-23 21:19:29,399 - INFO - Copied picture from HTotalRevComparison, width: 9.26 cm, height: 4.23 cm
+2025-02-23 21:19:30,510 - INFO - Table Name: HoursTable
+2025-02-23 21:19:31,511 - INFO - 'HoursTable' successfully pasted in the HTotalRevComparison Sheet.
+2025-02-23 21:19:31,535 - INFO - Resized HoursContainer to width: 9.30 cm, height: 6.21 cm
+2025-02-23 21:19:32,557 - INFO - Copied picture from LiftLeaseComparison, width: 8.89 cm, height: 4.23 cm
+2025-02-23 21:19:33,632 - INFO - Table Name: LeaseTable
+2025-02-23 21:19:34,634 - INFO - 'LeaseTable' successfully pasted in the LiftLeaseComparison Sheet.
+2025-02-23 21:19:34,656 - INFO - Resized LeaseContainer to width: 8.93 cm, height: 6.21 cm
+2025-02-23 21:19:36,077 - INFO - Data pasted as pictures successfully.
+2025-02-23 21:19:39,373 - INFO - Week VDP_DIV10_1202_1215_FINAL.xlsm + VDP_DIV10_1216_1229_FINAL.xlsm
+2025-02-23 21:19:40,763 - INFO - Processing ComparedResults/DIV10_Tables.xlsx -> Week 1
+2025-02-23 21:19:40,806 - INFO - Processing ComparedResults/DIV10_Tables.xlsx -> Week 1
+2025-02-23 21:19:40,808 - INFO - Accept Hrs: 56.35 -> 56.25
+2025-02-23 21:19:41,263 - INFO - Successfully updated color for txtAcceptDiff with value '-0.10'.
+2025-02-23 21:19:41,278 - INFO - Successfully updated color for txtCancelDiff with value '1.56'.
+2025-02-23 21:19:41,293 - INFO - Successfully updated color for txtUtilizationDiff with value '3.07'.
+2025-02-23 21:19:41,313 - INFO - Successfully updated color for txtPOnlineHrsDiff with value '0.00'.
+2025-02-23 21:19:41,339 - INFO - Successfully updated color for txtReqHrsDiff with value '0.00'.
+2025-02-23 21:19:41,340 - INFO - Processing ComparedResults/DIV10_Tables.xlsx -> Week 2
+2025-02-23 21:19:41,366 - INFO - Processing ComparedResults/DIV10_Tables.xlsx -> Week 2
+2025-02-23 21:19:41,369 - INFO - Accept Hrs: 66.67 -> 66.67
+2025-02-23 21:19:41,598 - INFO - Successfully updated color for txtAcceptDiff with value '0.00'.
+2025-02-23 21:19:41,617 - INFO - Successfully updated color for txtCancelDiff with value '1.39'.
+2025-02-23 21:19:41,629 - INFO - Successfully updated color for txtUtilizationDiff with value '-1.64'.
+2025-02-23 21:19:41,643 - INFO - Successfully updated color for txtPOnlineHrsDiff with value '-11.49'.
+2025-02-23 21:19:41,657 - INFO - Successfully updated color for txtReqHrsDiff with value '-0.01'.
+2025-02-23 21:19:44,631 - INFO - ComparedResults/Dashboard.xlsm has been successfully updated and saved.
+2025-02-23 21:19:48,042 - INFO - Deleted existing picture: AcceptTable in Week 1
+2025-02-23 21:19:48,045 - INFO - Deleted existing picture: CancelTable in Week 1
+2025-02-23 21:19:48,050 - INFO - Deleted existing picture: UtilizationTable in Week 1
+2025-02-23 21:19:48,053 - INFO - Deleted existing picture: OnlineTable in Week 1
+2025-02-23 21:19:48,106 - INFO - Deleted existing picture: ReqTable in Week 1
+2025-02-23 21:19:48,164 - INFO - Deleted existing picture: AcceptTable in Week 2
+2025-02-23 21:19:48,225 - INFO - Deleted existing picture: CancelTable in Week 2
+2025-02-23 21:19:48,233 - INFO - Deleted existing picture: UtilizationTable in Week 2
+2025-02-23 21:19:48,245 - INFO - Deleted existing picture: OnlineTable in Week 2
+2025-02-23 21:19:48,262 - INFO - Deleted existing picture: ReqTable in Week 2
+2025-02-23 21:19:51,622 - INFO - Copied picture from Week 1AcceptRateComp, width: 8.89 cm, height: 4.23 cm
+2025-02-23 21:19:52,757 - INFO - Table Name: AcceptTable
+2025-02-23 21:19:53,758 - INFO - 'AcceptTable' successfully pasted in the Week 1AcceptRateComp Sheet.
+2025-02-23 21:19:53,785 - INFO - Resized AcceptContainer to width: 8.93 cm, height: 6.21 cm
+2025-02-23 21:19:54,808 - INFO - Copied picture from Week 1CancelRateComp, width: 8.89 cm, height: 4.23 cm
+2025-02-23 21:19:55,924 - INFO - Table Name: CancelTable
+2025-02-23 21:19:56,926 - INFO - 'CancelTable' successfully pasted in the Week 1CancelRateComp Sheet.
+2025-02-23 21:19:56,949 - INFO - Resized CancelContainer to width: 8.93 cm, height: 6.21 cm
+2025-02-23 21:19:57,974 - INFO - Copied picture from Week 1UtilizationComp, width: 8.89 cm, height: 4.23 cm
+2025-02-23 21:19:59,076 - INFO - Table Name: UtilizationTable
+2025-02-23 21:20:00,078 - INFO - 'UtilizationTable' successfully pasted in the Week 1UtilizationComp Sheet.
+2025-02-23 21:20:00,113 - INFO - Resized UtilizationContainer to width: 8.93 cm, height: 6.21 cm
+2025-02-23 21:20:01,126 - INFO - Copied picture from Week 1POnlineHrsComp, width: 8.89 cm, height: 4.23 cm
+2025-02-23 21:20:02,193 - INFO - Table Name: OnlineTable
+2025-02-23 21:20:03,194 - INFO - 'OnlineTable' successfully pasted in the Week 1POnlineHrsComp Sheet.
+2025-02-23 21:20:03,218 - INFO - Resized OnlineContainer to width: 8.93 cm, height: 6.21 cm
+2025-02-23 21:20:04,244 - INFO - Copied picture from Week 1ReqHrsComp, width: 8.89 cm, height: 4.23 cm
+2025-02-23 21:20:05,362 - INFO - Table Name: ReqTable
+2025-02-23 21:20:06,363 - INFO - 'ReqTable' successfully pasted in the Week 1ReqHrsComp Sheet.
+2025-02-23 21:20:06,388 - INFO - Resized ReqContainer to width: 8.93 cm, height: 6.21 cm
+2025-02-23 21:20:07,480 - INFO - Copied picture from Week 2AcceptRateComp, width: 8.89 cm, height: 3.70 cm
+2025-02-23 21:20:08,599 - INFO - Table Name: AcceptTable
+2025-02-23 21:20:09,600 - INFO - 'AcceptTable' successfully pasted in the Week 2AcceptRateComp Sheet.
+2025-02-23 21:20:09,624 - INFO - Resized AcceptContainer to width: 8.93 cm, height: 5.68 cm
+2025-02-23 21:20:10,651 - INFO - Copied picture from Week 2CancelRateComp, width: 8.89 cm, height: 3.70 cm
+2025-02-23 21:20:11,728 - INFO - Table Name: CancelTable
+2025-02-23 21:20:12,730 - INFO - 'CancelTable' successfully pasted in the Week 2CancelRateComp Sheet.
+2025-02-23 21:20:12,756 - INFO - Resized CancelContainer to width: 8.93 cm, height: 5.68 cm
+2025-02-23 21:20:13,779 - INFO - Copied picture from Week 2UtilizationComp, width: 8.89 cm, height: 3.70 cm
+2025-02-23 21:20:14,892 - INFO - Table Name: UtilizationTable
+2025-02-23 21:20:15,894 - INFO - 'UtilizationTable' successfully pasted in the Week 2UtilizationComp Sheet.
+2025-02-23 21:20:15,925 - INFO - Resized UtilizationContainer to width: 8.93 cm, height: 5.68 cm
+2025-02-23 21:20:16,947 - INFO - Copied picture from Week 2POnlineHrsComp, width: 8.89 cm, height: 3.70 cm
+2025-02-23 21:20:18,059 - INFO - Table Name: OnlineTable
+2025-02-23 21:20:19,061 - INFO - 'OnlineTable' successfully pasted in the Week 2POnlineHrsComp Sheet.
+2025-02-23 21:20:19,087 - INFO - Resized OnlineContainer to width: 8.93 cm, height: 5.68 cm
+2025-02-23 21:20:20,114 - INFO - Copied picture from Week 2ReqHrsComp, width: 8.89 cm, height: 3.70 cm
+2025-02-23 21:20:21,182 - INFO - Table Name: ReqTable
+2025-02-23 21:20:22,184 - INFO - 'ReqTable' successfully pasted in the Week 2ReqHrsComp Sheet.
+2025-02-23 21:20:22,220 - INFO - Resized ReqContainer to width: 8.93 cm, height: 5.68 cm
+2025-02-23 21:20:23,503 - INFO - Data pasted as pictures successfully.
+2025-02-23 21:21:40,612 - INFO - Starting main comparison process.
+2025-02-23 21:21:40,612 - INFO - Loading sheets from the provided Excel files.
+2025-02-23 21:21:41,849 - INFO - Sheets loaded successfully.
+2025-02-23 21:21:41,851 - INFO - Total Clients: TRANSDEV
+2025-02-23 21:21:41,852 - INFO - Client in total: DIV10_TRIMET
+2025-02-23 21:21:41,853 - INFO - Found client header for DIV10_TRIMET at row 3.
+2025-02-23 21:21:41,854 - INFO - Partner rows for client DIV10_TRIMET are between rows 4 and 18.
+2025-02-23 21:21:41,854 - INFO - Total partners for DIV10_TRIMET: 11
+2025-02-23 21:21:41,855 - INFO - Partner: ANGELES TRANSPORTATION, LLC
+2025-02-23 21:21:41,855 - INFO - Amount for partner ANGELES TRANSPORTATION, LLC: 1378.4144999999999
+2025-02-23 21:21:41,856 - INFO - Current Amount for partner ANGELES TRANSPORTATION, LLC: 1378.4144999999999
+2025-02-23 21:21:41,857 - INFO - Partner: ARISESIZ LLC
+2025-02-23 21:21:41,858 - INFO - Amount for partner ARISESIZ LLC: 0
+2025-02-23 21:21:41,858 - INFO - Current Amount for partner ARISESIZ LLC: 1378.4144999999999
+2025-02-23 21:21:41,860 - INFO - Partner: DEAUNDREY WRIGHT
+2025-02-23 21:21:41,860 - INFO - Amount for partner DEAUNDREY WRIGHT: 1352.3043
+2025-02-23 21:21:41,861 - INFO - Current Amount for partner DEAUNDREY WRIGHT: 2730.7187999999996
+2025-02-23 21:21:41,862 - INFO - Partner: FLASH LOGISTICS LLC
+2025-02-23 21:21:41,863 - INFO - Amount for partner FLASH LOGISTICS LLC: 2387.6718
+2025-02-23 21:21:41,863 - INFO - Current Amount for partner FLASH LOGISTICS LLC: 5118.3906
+2025-02-23 21:21:41,864 - INFO - Partner: JUST EASY ACCESS RIDE LLC
+2025-02-23 21:21:41,865 - INFO - Amount for partner JUST EASY ACCESS RIDE LLC: 2058.5289000000002
+2025-02-23 21:21:41,866 - INFO - Current Amount for partner JUST EASY ACCESS RIDE LLC: 7176.9195
+2025-02-23 21:21:41,868 - INFO - Partner: MTIGER TRANSPORTATION
+2025-02-23 21:21:41,868 - INFO - Amount for partner MTIGER TRANSPORTATION: 2027.3135000000002
+2025-02-23 21:21:41,869 - INFO - Current Amount for partner MTIGER TRANSPORTATION: 9204.233
+2025-02-23 21:21:41,870 - INFO - Partner: MVO TRANSPORTATION
+2025-02-23 21:21:41,871 - INFO - Amount for partner MVO TRANSPORTATION: 1723.2928
+2025-02-23 21:21:41,871 - INFO - Current Amount for partner MVO TRANSPORTATION: 10927.5258
+2025-02-23 21:21:41,873 - INFO - Partner: SAFE DESTINATION TRANSPORTATION LLC
+2025-02-23 21:21:41,873 - INFO - Amount for partner SAFE DESTINATION TRANSPORTATION LLC: 3000.0762
+2025-02-23 21:21:41,873 - INFO - Current Amount for partner SAFE DESTINATION TRANSPORTATION LLC: 13927.601999999999
+2025-02-23 21:21:41,875 - INFO - Partner: SANVIN VOYAGE LLC
+2025-02-23 21:21:41,875 - INFO - Amount for partner SANVIN VOYAGE LLC: 1712.1204
+2025-02-23 21:21:41,876 - INFO - Current Amount for partner SANVIN VOYAGE LLC: 15639.722399999999
+2025-02-23 21:21:41,877 - INFO - Partner: SUITE CHARRIOT MOBILITY LLC
+2025-02-23 21:21:41,878 - INFO - Amount for partner SUITE CHARRIOT MOBILITY LLC: 3037.1858
+2025-02-23 21:21:41,878 - INFO - Current Amount for partner SUITE CHARRIOT MOBILITY LLC: 18676.908199999998
+2025-02-23 21:21:41,880 - INFO - Partner: VAMONOS TRANSPORTATION LLC
+2025-02-23 21:21:41,880 - INFO - Amount for partner VAMONOS TRANSPORTATION LLC: 267.2
+2025-02-23 21:21:41,881 - INFO - Current Amount for partner VAMONOS TRANSPORTATION LLC: 18944.1082
+2025-02-23 21:21:41,881 - INFO - Total amount for client DIV10_TRIMET: 18944.1082
+2025-02-23 21:21:41,881 - INFO - Total calculated mamount:18944.1082
+2025-02-23 21:21:41,882 - INFO - Found client header for DIV10_TRIMET at row 3.
+2025-02-23 21:21:41,883 - INFO - Partner rows for client DIV10_TRIMET are between rows 4 and 21.
+2025-02-23 21:21:41,883 - INFO - Total partners for DIV10_TRIMET: 14
+2025-02-23 21:21:41,884 - INFO - Partner: ANGELES TRANSPORTATION, LLC
+2025-02-23 21:21:41,884 - INFO - Amount for partner ANGELES TRANSPORTATION, LLC: -864.0967999999998
+2025-02-23 21:21:41,885 - INFO - Current Amount for partner ANGELES TRANSPORTATION, LLC: -864.0967999999998
+2025-02-23 21:21:41,886 - INFO - Partner: APRIL STAR
+2025-02-23 21:21:41,886 - INFO - Amount for partner APRIL STAR: 1522.9175
+2025-02-23 21:21:41,887 - INFO - Current Amount for partner APRIL STAR: 658.8207000000002
+2025-02-23 21:21:41,888 - INFO - Partner: ARISESIZ LLC
+2025-02-23 21:21:41,888 - INFO - Amount for partner ARISESIZ LLC: 1024.3417
+2025-02-23 21:21:41,889 - INFO - Current Amount for partner ARISESIZ LLC: 1683.1624000000002
+2025-02-23 21:21:41,890 - INFO - Partner: BILLY COLLINS
+2025-02-23 21:21:41,890 - INFO - Amount for partner BILLY COLLINS: 261.496
+2025-02-23 21:21:41,891 - INFO - Current Amount for partner BILLY COLLINS: 1944.6584000000003
+2025-02-23 21:21:41,893 - INFO - Partner: DEAUNDREY WRIGHT
+2025-02-23 21:21:41,893 - INFO - Amount for partner DEAUNDREY WRIGHT: 1865.8494999999998
+2025-02-23 21:21:41,894 - INFO - Current Amount for partner DEAUNDREY WRIGHT: 3810.5079
+2025-02-23 21:21:41,895 - INFO - Partner: FLASH LOGISTICS LLC
+2025-02-23 21:21:41,895 - INFO - Amount for partner FLASH LOGISTICS LLC: 1950.44
+2025-02-23 21:21:41,895 - INFO - Current Amount for partner FLASH LOGISTICS LLC: 5760.9479
+2025-02-23 21:21:41,896 - INFO - Partner: JUST EASY ACCESS RIDE LLC
+2025-02-23 21:21:41,897 - INFO - Amount for partner JUST EASY ACCESS RIDE LLC: 1981.3722
+2025-02-23 21:21:41,897 - INFO - Current Amount for partner JUST EASY ACCESS RIDE LLC: 7742.3201
+2025-02-23 21:21:41,898 - INFO - Partner: MICHAEL BIRD
+2025-02-23 21:21:41,898 - INFO - Amount for partner MICHAEL BIRD: 0
+2025-02-23 21:21:41,899 - INFO - Current Amount for partner MICHAEL BIRD: 7742.3201
+2025-02-23 21:21:41,900 - INFO - Partner: MTIGER TRANSPORTATION
+2025-02-23 21:21:41,900 - INFO - Amount for partner MTIGER TRANSPORTATION: 1852.5443
+2025-02-23 21:21:41,900 - INFO - Current Amount for partner MTIGER TRANSPORTATION: 9594.8644
+2025-02-23 21:21:41,901 - INFO - Partner: MVO TRANSPORTATION
+2025-02-23 21:21:41,901 - INFO - Amount for partner MVO TRANSPORTATION: 1518.4719
+2025-02-23 21:21:41,902 - INFO - Current Amount for partner MVO TRANSPORTATION: 11113.3363
+2025-02-23 21:21:41,903 - INFO - Partner: SAFE DESTINATION TRANSPORTATION LLC
+2025-02-23 21:21:41,903 - INFO - Amount for partner SAFE DESTINATION TRANSPORTATION LLC: 1896.2974
+2025-02-23 21:21:41,904 - INFO - Current Amount for partner SAFE DESTINATION TRANSPORTATION LLC: 13009.6337
+2025-02-23 21:21:41,905 - INFO - Partner: SANVIN VOYAGE LLC
+2025-02-23 21:21:41,906 - INFO - Amount for partner SANVIN VOYAGE LLC: 907.7012000000001
+2025-02-23 21:21:41,906 - INFO - Current Amount for partner SANVIN VOYAGE LLC: 13917.3349
+2025-02-23 21:21:41,907 - INFO - Partner: SUITE CHARRIOT MOBILITY LLC
+2025-02-23 21:21:41,908 - INFO - Amount for partner SUITE CHARRIOT MOBILITY LLC: 2127.2592999999997
+2025-02-23 21:21:41,909 - INFO - Current Amount for partner SUITE CHARRIOT MOBILITY LLC: 16044.5942
+2025-02-23 21:21:41,910 - INFO - Partner: TOM GUTHRIE
+2025-02-23 21:21:41,911 - INFO - Amount for partner TOM GUTHRIE: 533.292
+2025-02-23 21:21:41,911 - INFO - Current Amount for partner TOM GUTHRIE: 16577.8862
+2025-02-23 21:21:41,911 - INFO - Total amount for client DIV10_TRIMET: 16577.8862
+2025-02-23 21:21:41,912 - INFO - Total calculated mamount:16577.8862
+2025-02-23 21:21:41,912 - INFO - Comparing Totals between previous and latest values.
+2025-02-23 21:21:41,913 - INFO - Totals comparison completed.
+2025-02-23 21:21:41,913 - INFO - Comparing Hourly Total Revs between previous and latest sheets.
+2025-02-23 21:21:41,914 - INFO - HTOTAL Client: TRANSDEV
+2025-02-23 21:21:41,919 - INFO - HTOTALREV comparison completed.
+2025-02-23 21:21:41,919 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-23 21:21:41,928 - INFO - Lift Lease comparison completed.
+2025-02-23 21:21:41,928 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-23 21:21:41,935 - INFO - Violation comparison completed.
+2025-02-23 21:21:41,936 - INFO - Comparing trips data between previous and latest sheets.
+2025-02-23 21:21:41,943 - INFO - Trips comparison completed.
+2025-02-23 21:21:42,048 - INFO - Applying formatting to sheet: TotalInvoicePayment.
+2025-02-23 21:21:42,050 - INFO - Formatting applied successfully to sheet: TotalInvoicePayment.
+2025-02-23 21:21:42,050 - INFO - Applying formatting to sheet: HTotalRevComparison.
+2025-02-23 21:21:42,057 - INFO - Formatting applied successfully to sheet: HTotalRevComparison.
+2025-02-23 21:21:42,058 - INFO - Applying formatting to sheet: LiftLeaseComparison.
+2025-02-23 21:21:42,065 - INFO - Formatting applied successfully to sheet: LiftLeaseComparison.
+2025-02-23 21:21:42,066 - INFO - Applying formatting to sheet: ViolationComparison.
+2025-02-23 21:21:42,071 - INFO - Formatting applied successfully to sheet: ViolationComparison.
+2025-02-23 21:21:42,071 - INFO - Applying formatting to sheet: TripsComparison.
+2025-02-23 21:21:42,081 - INFO - Formatting applied successfully to sheet: TripsComparison.
+2025-02-23 21:21:42,153 - INFO - Total Clients: UBER
+2025-02-23 21:21:42,154 - INFO - Client in total: UBER WAV TRANSIT
+2025-02-23 21:21:42,156 - INFO - Found client header for UBER WAV TRANSIT at row 33.
+2025-02-23 21:21:42,157 - INFO - Partner rows for client UBER WAV TRANSIT are between rows 34 and 73.
+2025-02-23 21:21:42,158 - INFO - Total partners for UBER WAV TRANSIT: 6
+2025-02-23 21:21:42,159 - INFO - Partner: BAMS TRANSIT
+2025-02-23 21:21:42,159 - INFO - Amount for partner BAMS TRANSIT: 2414.12
+2025-02-23 21:21:42,160 - INFO - Current Amount for partner BAMS TRANSIT: 2414.12
+2025-02-23 21:21:42,161 - INFO - Partner: CARR TRANSIT LLC
+2025-02-23 21:21:42,161 - INFO - Amount for partner CARR TRANSIT LLC: 1797.7462
+2025-02-23 21:21:42,161 - INFO - Current Amount for partner CARR TRANSIT LLC: 4211.8662
+2025-02-23 21:21:42,162 - INFO - Partner: FLASH LOGISTICS LLC
+2025-02-23 21:21:42,163 - INFO - Amount for partner FLASH LOGISTICS LLC: 0
+2025-02-23 21:21:42,163 - INFO - Current Amount for partner FLASH LOGISTICS LLC: 4211.8662
+2025-02-23 21:21:42,164 - INFO - Partner: JAMAAL PERRY
+2025-02-23 21:21:42,164 - INFO - Amount for partner JAMAAL PERRY: 0
+2025-02-23 21:21:42,164 - INFO - Current Amount for partner JAMAAL PERRY: 4211.8662
+2025-02-23 21:21:42,165 - INFO - Partner: RIDEPASS, LLC
+2025-02-23 21:21:42,166 - INFO - Amount for partner RIDEPASS, LLC: 2223.66
+2025-02-23 21:21:42,166 - INFO - Current Amount for partner RIDEPASS, LLC: 6435.5262
+2025-02-23 21:21:42,167 - INFO - Partner: ROADRUNNERLIFT23 LLC
+2025-02-23 21:21:42,168 - INFO - Amount for partner ROADRUNNERLIFT23 LLC: 2986
+2025-02-23 21:21:42,168 - INFO - Current Amount for partner ROADRUNNERLIFT23 LLC: 9421.5262
+2025-02-23 21:21:42,169 - INFO - Total amount for client UBER WAV TRANSIT: 9421.5262
+2025-02-23 21:21:42,169 - INFO - Total calculated mamount:9421.5262
+2025-02-23 21:21:42,170 - INFO - Found client header for UBER WAV TRANSIT at row 33.
+2025-02-23 21:21:42,171 - INFO - Partner rows for client UBER WAV TRANSIT are between rows 34 and 73.
+2025-02-23 21:21:42,172 - INFO - Total partners for UBER WAV TRANSIT: 6
+2025-02-23 21:21:42,173 - INFO - Partner: BAMS TRANSIT
+2025-02-23 21:21:42,173 - INFO - Amount for partner BAMS TRANSIT: 2940.48
+2025-02-23 21:21:42,173 - INFO - Current Amount for partner BAMS TRANSIT: 2940.48
+2025-02-23 21:21:42,175 - INFO - Partner: CARR TRANSIT LLC
+2025-02-23 21:21:42,175 - INFO - Amount for partner CARR TRANSIT LLC: 2034.5099999999998
+2025-02-23 21:21:42,176 - INFO - Current Amount for partner CARR TRANSIT LLC: 4974.99
+2025-02-23 21:21:42,177 - INFO - Partner: FLASH LOGISTICS LLC
+2025-02-23 21:21:42,177 - INFO - Amount for partner FLASH LOGISTICS LLC: 0
+2025-02-23 21:21:42,177 - INFO - Current Amount for partner FLASH LOGISTICS LLC: 4974.99
+2025-02-23 21:21:42,178 - INFO - Partner: JAMAAL PERRY
+2025-02-23 21:21:42,179 - INFO - Amount for partner JAMAAL PERRY: 0
+2025-02-23 21:21:42,179 - INFO - Current Amount for partner JAMAAL PERRY: 4974.99
+2025-02-23 21:21:42,180 - INFO - Partner: RIDEPASS, LLC
+2025-02-23 21:21:42,180 - INFO - Amount for partner RIDEPASS, LLC: 1792.0175
+2025-02-23 21:21:42,180 - INFO - Current Amount for partner RIDEPASS, LLC: 6767.0075
+2025-02-23 21:21:42,182 - INFO - Partner: ROADRUNNERLIFT23 LLC
+2025-02-23 21:21:42,182 - INFO - Amount for partner ROADRUNNERLIFT23 LLC: 2666.8775
+2025-02-23 21:21:42,183 - INFO - Current Amount for partner ROADRUNNERLIFT23 LLC: 9433.885
+2025-02-23 21:21:42,183 - INFO - Total amount for client UBER WAV TRANSIT: 9433.885
+2025-02-23 21:21:42,183 - INFO - Total calculated mamount:9433.885
+2025-02-23 21:21:42,183 - INFO - Comparing Totals between previous and latest values.
+2025-02-23 21:21:42,184 - INFO - Totals comparison completed.
+2025-02-23 21:21:42,185 - INFO - Comparing Hourly Total Revs between previous and latest sheets.
+2025-02-23 21:21:42,185 - INFO - HTOTAL Client: UBER
+2025-02-23 21:21:42,189 - INFO - HTOTALREV comparison completed.
+2025-02-23 21:21:42,190 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-23 21:21:42,197 - INFO - Lift Lease comparison completed.
+2025-02-23 21:21:42,198 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-23 21:21:42,205 - INFO - Violation comparison completed.
+2025-02-23 21:21:42,206 - INFO - Comparing trips data between previous and latest sheets.
+2025-02-23 21:21:42,212 - INFO - Trips comparison completed.
+2025-02-23 21:21:42,290 - INFO - Applying formatting to sheet: TotalInvoicePayment.
+2025-02-23 21:21:42,292 - INFO - Formatting applied successfully to sheet: TotalInvoicePayment.
+2025-02-23 21:21:42,292 - INFO - Applying formatting to sheet: HTotalRevComparison.
+2025-02-23 21:21:42,294 - INFO - Formatting applied successfully to sheet: HTotalRevComparison.
+2025-02-23 21:21:42,295 - INFO - Applying formatting to sheet: LiftLeaseComparison.
+2025-02-23 21:21:42,297 - INFO - Formatting applied successfully to sheet: LiftLeaseComparison.
+2025-02-23 21:21:42,297 - INFO - Applying formatting to sheet: ViolationComparison.
+2025-02-23 21:21:42,300 - INFO - Formatting applied successfully to sheet: ViolationComparison.
+2025-02-23 21:21:42,379 - INFO - Total amount for client UBER: 9421.5262
+2025-02-23 21:21:42,379 - INFO - Total calculated mamount:28365.6344
+2025-02-23 21:21:42,400 - INFO - Total amount for client UBER: 9433.885
+2025-02-23 21:21:42,401 - INFO - Total calculated mamount:26011.771200000003
+2025-02-23 21:21:42,401 - INFO - Comparing Totals between previous and latest values.
+2025-02-23 21:21:42,403 - INFO - Totals comparison completed.
+2025-02-23 21:21:42,403 - INFO - Comparing Hourly Total Revs between previous and latest sheets.
+2025-02-23 21:21:42,415 - INFO - HTOTALREV comparison completed.
+2025-02-23 21:21:42,415 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-23 21:21:42,425 - INFO - Lift Lease comparison completed.
+2025-02-23 21:21:42,425 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-23 21:21:42,432 - INFO - Violation comparison completed.
+2025-02-23 21:21:42,440 - INFO - Comparing Acceptance Rate for Week 1.
+2025-02-23 21:21:42,445 - INFO - Week 1 Acceptance Rate comparison completed.
+2025-02-23 21:21:42,447 - INFO - Comparing Cancellation Rate for Week 1.
+2025-02-23 21:21:42,452 - INFO - Week 1 Cancellation Rate comparison completed.
+2025-02-23 21:21:42,454 - INFO - Comparing Utilization% for Week 1.
+2025-02-23 21:21:42,460 - INFO - Week 1 Utilization% comparison completed.
+2025-02-23 21:21:42,461 - INFO - Comparing Payable Online Hours for Week 1.
+2025-02-23 21:21:42,466 - INFO - Week 1 Payable Online Hours comparison completed.
+2025-02-23 21:21:42,468 - INFO - Comparing Required Hours for Week 1.
+2025-02-23 21:21:42,475 - INFO - Week 1 Required Hours comparison completed.
+2025-02-23 21:21:42,477 - INFO - Comparing Acceptance Rate for Week 2.
+2025-02-23 21:21:42,483 - INFO - Week 2 Acceptance Rate comparison completed.
+2025-02-23 21:21:42,485 - INFO - Comparing Cancellation Rate for Week 2.
+2025-02-23 21:21:42,491 - INFO - Week 2 Cancellation Rate comparison completed.
+2025-02-23 21:21:42,493 - INFO - Comparing Utilization% for Week 2.
+2025-02-23 21:21:42,498 - INFO - Week 2 Utilization% comparison completed.
+2025-02-23 21:21:42,500 - INFO - Comparing Payable Online Hours for Week 2.
+2025-02-23 21:21:42,506 - INFO - Week 2 Payable Online Hours comparison completed.
+2025-02-23 21:21:42,508 - INFO - Comparing Required Hours for Week 2.
+2025-02-23 21:21:42,514 - INFO - Week 2 Required Hours comparison completed.
+2025-02-23 21:21:42,720 - INFO - Applying formatting to sheet: TotalInvoicePayment.
+2025-02-23 21:21:42,722 - INFO - Formatting applied successfully to sheet: TotalInvoicePayment.
+2025-02-23 21:21:42,723 - INFO - Applying formatting to sheet: HTotalRevComparison.
+2025-02-23 21:21:42,732 - INFO - Formatting applied successfully to sheet: HTotalRevComparison.
+2025-02-23 21:21:42,732 - INFO - Applying formatting to sheet: LiftLeaseComparison.
+2025-02-23 21:21:42,743 - INFO - Formatting applied successfully to sheet: LiftLeaseComparison.
+2025-02-23 21:21:42,743 - INFO - Applying formatting to sheet: ViolationComparison.
+2025-02-23 21:21:42,749 - INFO - Formatting applied successfully to sheet: ViolationComparison.
+2025-02-23 21:21:42,749 - INFO - Applying formatting to sheet: Week 1AcceptRateComp.
+2025-02-23 21:21:42,751 - INFO - Formatting applied successfully to sheet: Week 1AcceptRateComp.
+2025-02-23 21:21:42,752 - INFO - Applying formatting to sheet: Week 1CancelRateComp.
+2025-02-23 21:21:42,754 - INFO - Formatting applied successfully to sheet: Week 1CancelRateComp.
+2025-02-23 21:21:42,755 - INFO - Applying formatting to sheet: Week 1UtilizationComp.
+2025-02-23 21:21:42,758 - INFO - Formatting applied successfully to sheet: Week 1UtilizationComp.
+2025-02-23 21:21:42,759 - INFO - Applying formatting to sheet: Week 1POnlineHrsComp.
+2025-02-23 21:21:42,761 - INFO - Formatting applied successfully to sheet: Week 1POnlineHrsComp.
+2025-02-23 21:21:42,761 - INFO - Applying formatting to sheet: Week 1ReqHrsComp.
+2025-02-23 21:21:42,763 - INFO - Formatting applied successfully to sheet: Week 1ReqHrsComp.
+2025-02-23 21:21:42,763 - INFO - Applying formatting to sheet: Week 2AcceptRateComp.
+2025-02-23 21:21:42,765 - INFO - Formatting applied successfully to sheet: Week 2AcceptRateComp.
+2025-02-23 21:21:42,766 - INFO - Applying formatting to sheet: Week 2CancelRateComp.
+2025-02-23 21:21:42,768 - INFO - Formatting applied successfully to sheet: Week 2CancelRateComp.
+2025-02-23 21:21:42,768 - INFO - Applying formatting to sheet: Week 2UtilizationComp.
+2025-02-23 21:21:42,770 - INFO - Formatting applied successfully to sheet: Week 2UtilizationComp.
+2025-02-23 21:21:42,770 - INFO - Applying formatting to sheet: Week 2POnlineHrsComp.
+2025-02-23 21:21:42,773 - INFO - Formatting applied successfully to sheet: Week 2POnlineHrsComp.
+2025-02-23 21:21:42,774 - INFO - Applying formatting to sheet: Week 2ReqHrsComp.
+2025-02-23 21:21:42,776 - INFO - Formatting applied successfully to sheet: Week 2ReqHrsComp.
+2025-02-23 21:21:42,993 - INFO - Main comparison process completed successfully. File saved to ComparedResults\DIV10_Tables.xlsx.
+2025-02-23 21:21:44,994 - INFO - VDP_DIV10_1216_1229_FINAL.xlsm + VDP_DIV10_1230_0112_FINAL.xlsm
+2025-02-23 21:21:47,586 - INFO - Successfully updated color for TextBox 90 with status 'Decreased'.
+2025-02-23 21:21:47,591 - INFO - Successfully updated color for txtHTotalRevDiff with value '1,588.94'.
+2025-02-23 21:21:47,595 - INFO - Successfully updated color for txtLLeaseDiff with value '635.98'.
+2025-02-23 21:21:47,597 - INFO - Successfully updated color for txtViolationsDiff with value '1,000.00'.
+2025-02-23 21:21:47,854 - INFO - Successfully updated color for TextBox 90 with status 'Decreased'.
+2025-02-23 21:21:47,867 - INFO - Successfully updated color for txtHTotalRevDiff with value '1,526.50'.
+2025-02-23 21:21:47,884 - INFO - Successfully updated color for txtLLeaseDiff with value '585.90'.
+2025-02-23 21:21:47,900 - INFO - Successfully updated color for txtViolationsDiff with value '1,000.00'.
+2025-02-23 21:21:47,913 - INFO - Successfully updated color for txtTripsDiff with value '71'.
+2025-02-23 21:21:48,003 - INFO - Successfully updated color for TextBox 90 with status 'Increased'.
+2025-02-23 21:21:48,005 - INFO - Successfully updated color for txtHTotalRevDiff with value '62.44'.
+2025-02-23 21:21:48,007 - INFO - Successfully updated color for txtLLeaseDiff with value '50.08'.
+2025-02-23 21:21:48,010 - INFO - Successfully updated color for txtViolationsDiff with value '0.00'.
+2025-02-23 21:21:49,350 - INFO - ComparedResults/Dashboard.xlsm has been successfully updated and saved.
+2025-02-23 21:21:52,781 - INFO - Picture name: ViolationsTable found in Dashboard
+2025-02-23 21:21:52,861 - INFO - Deleted existing picture: ViolationsTable in Dashboard
+2025-02-23 21:21:52,862 - INFO - Picture name: HoursTable found in Dashboard
+2025-02-23 21:21:52,908 - INFO - Deleted existing picture: HoursTable in Dashboard
+2025-02-23 21:21:52,909 - INFO - Picture name: LeaseTable found in Dashboard
+2025-02-23 21:21:52,942 - INFO - Deleted existing picture: LeaseTable in Dashboard
+2025-02-23 21:21:52,956 - INFO - Picture name: ViolationsTable found in Transdev
+2025-02-23 21:21:52,971 - INFO - Deleted existing picture: ViolationsTable in Transdev
+2025-02-23 21:21:52,972 - INFO - Picture name: HoursTable found in Transdev
+2025-02-23 21:21:52,992 - INFO - Deleted existing picture: HoursTable in Transdev
+2025-02-23 21:21:52,993 - INFO - Picture name: LeaseTable found in Transdev
+2025-02-23 21:21:53,003 - INFO - Deleted existing picture: LeaseTable in Transdev
+2025-02-23 21:21:53,004 - INFO - Picture name: TripsTable found in Transdev
+2025-02-23 21:21:53,016 - INFO - Deleted existing picture: TripsTable in Transdev
+2025-02-23 21:21:53,053 - INFO - Picture name: ViolationsTable found in Uber
+2025-02-23 21:21:53,078 - INFO - Deleted existing picture: ViolationsTable in Uber
+2025-02-23 21:21:53,078 - INFO - Picture name: HoursTable found in Uber
+2025-02-23 21:21:53,091 - INFO - Deleted existing picture: HoursTable in Uber
+2025-02-23 21:21:53,091 - INFO - Picture name: LeaseTable found in Uber
+2025-02-23 21:21:53,103 - INFO - Deleted existing picture: LeaseTable in Uber
+2025-02-23 21:21:56,495 - INFO - Copied picture from ViolationComparison, width: 11.67 cm, height: 10.05 cm
+2025-02-23 21:21:57,675 - INFO - Table Name: ViolationsTable
+2025-02-23 21:21:58,676 - INFO - 'ViolationsTable' successfully pasted in the ViolationComparison Sheet.
+2025-02-23 21:21:58,744 - INFO - Resized ViolationsContainer to width: 11.70 cm, height: 12.03 cm
+2025-02-23 21:21:59,767 - INFO - Copied picture from HTotalRevComparison, width: 12.04 cm, height: 10.05 cm
+2025-02-23 21:22:00,884 - INFO - Table Name: HoursTable
+2025-02-23 21:22:01,886 - INFO - 'HoursTable' successfully pasted in the HTotalRevComparison Sheet.
+2025-02-23 21:22:01,910 - INFO - Resized HoursContainer to width: 12.07 cm, height: 12.03 cm
+2025-02-23 21:22:02,934 - INFO - Copied picture from LiftLeaseComparison, width: 11.67 cm, height: 10.05 cm
+2025-02-23 21:22:04,049 - INFO - Table Name: LeaseTable
+2025-02-23 21:22:05,050 - INFO - 'LeaseTable' successfully pasted in the LiftLeaseComparison Sheet.
+2025-02-23 21:22:05,073 - INFO - Resized LeaseContainer to width: 11.70 cm, height: 12.03 cm
+2025-02-23 21:22:06,390 - INFO - Copied picture from ViolationComparison, width: 11.67 cm, height: 7.94 cm
+2025-02-23 21:22:07,523 - INFO - Table Name: ViolationsTable
+2025-02-23 21:22:08,524 - INFO - 'ViolationsTable' successfully pasted in the ViolationComparison Sheet.
+2025-02-23 21:22:08,560 - INFO - Resized ViolationsContainer to width: 11.70 cm, height: 9.91 cm
+2025-02-23 21:22:09,577 - INFO - Copied picture from HTotalRevComparison, width: 11.67 cm, height: 7.94 cm
+2025-02-23 21:22:10,648 - INFO - Table Name: HoursTable
+2025-02-23 21:22:11,650 - INFO - 'HoursTable' successfully pasted in the HTotalRevComparison Sheet.
+2025-02-23 21:22:11,682 - INFO - Resized HoursContainer to width: 11.70 cm, height: 9.91 cm
+2025-02-23 21:22:12,696 - INFO - Copied picture from LiftLeaseComparison, width: 11.67 cm, height: 7.94 cm
+2025-02-23 21:22:13,764 - INFO - Table Name: LeaseTable
+2025-02-23 21:22:14,765 - INFO - 'LeaseTable' successfully pasted in the LiftLeaseComparison Sheet.
+2025-02-23 21:22:14,790 - INFO - Resized LeaseContainer to width: 11.70 cm, height: 9.91 cm
+2025-02-23 21:22:15,856 - INFO - Copied picture from TripsComparison, width: 8.70 cm, height: 12.17 cm
+2025-02-23 21:22:16,971 - INFO - Table Name: TripsTable
+2025-02-23 21:22:17,974 - INFO - 'TripsTable' successfully pasted in the TripsComparison Sheet.
+2025-02-23 21:22:17,998 - INFO - Resized TripsContainer to width: 8.74 cm, height: 14.15 cm
+2025-02-23 21:22:19,345 - INFO - Copied picture from ViolationComparison, width: 8.89 cm, height: 2.65 cm
+2025-02-23 21:22:20,514 - INFO - Table Name: ViolationsTable
+2025-02-23 21:22:21,515 - INFO - 'ViolationsTable' successfully pasted in the ViolationComparison Sheet.
+2025-02-23 21:22:21,539 - INFO - Resized ViolationsContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-23 21:22:22,563 - INFO - Copied picture from HTotalRevComparison, width: 9.26 cm, height: 2.65 cm
+2025-02-23 21:22:23,690 - INFO - Table Name: HoursTable
+2025-02-23 21:22:24,691 - INFO - 'HoursTable' successfully pasted in the HTotalRevComparison Sheet.
+2025-02-23 21:22:24,716 - INFO - Resized HoursContainer to width: 9.30 cm, height: 4.62 cm
+2025-02-23 21:22:25,738 - INFO - Copied picture from LiftLeaseComparison, width: 8.89 cm, height: 2.65 cm
+2025-02-23 21:22:26,851 - INFO - Table Name: LeaseTable
+2025-02-23 21:22:27,853 - INFO - 'LeaseTable' successfully pasted in the LiftLeaseComparison Sheet.
+2025-02-23 21:22:27,876 - INFO - Resized LeaseContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-23 21:22:29,265 - INFO - Data pasted as pictures successfully.
+2025-02-23 21:22:31,424 - INFO - Week VDP_DIV10_1216_1229_FINAL.xlsm + VDP_DIV10_1230_0112_FINAL.xlsm
+2025-02-23 21:22:32,848 - INFO - Processing ComparedResults/DIV10_Tables.xlsx -> Week 1
+2025-02-23 21:22:32,886 - INFO - Processing ComparedResults/DIV10_Tables.xlsx -> Week 1
+2025-02-23 21:22:32,890 - INFO - Accept Hrs: 98.44 -> 100.00
+2025-02-23 21:22:33,268 - INFO - Successfully updated color for txtAcceptDiff with value '1.56'.
+2025-02-23 21:22:33,279 - INFO - Successfully updated color for txtCancelDiff with value '-5.00'.
+2025-02-23 21:22:33,294 - INFO - Successfully updated color for txtUtilizationDiff with value '-2.20'.
+2025-02-23 21:22:33,307 - INFO - Successfully updated color for txtPOnlineHrsDiff with value '-3.62'.
+2025-02-23 21:22:33,320 - INFO - Successfully updated color for txtReqHrsDiff with value '-0.02'.
+2025-02-23 21:22:33,321 - INFO - Processing ComparedResults/DIV10_Tables.xlsx -> Week 2
+2025-02-23 21:22:33,345 - INFO - Processing ComparedResults/DIV10_Tables.xlsx -> Week 2
+2025-02-23 21:22:33,347 - INFO - Accept Hrs: 100.00 -> 89.06
+2025-02-23 21:22:33,581 - INFO - Successfully updated color for txtAcceptDiff with value '-10.94'.
+2025-02-23 21:22:33,593 - INFO - Successfully updated color for txtCancelDiff with value '3.47'.
+2025-02-23 21:22:33,607 - INFO - Successfully updated color for txtUtilizationDiff with value '-2.92'.
+2025-02-23 21:22:33,620 - INFO - Successfully updated color for txtPOnlineHrsDiff with value '3.86'.
+2025-02-23 21:22:33,634 - INFO - Successfully updated color for txtReqHrsDiff with value '0.02'.
+2025-02-23 21:22:36,604 - INFO - ComparedResults/Dashboard.xlsm has been successfully updated and saved.
+2025-02-23 21:22:40,027 - INFO - Deleted existing picture: AcceptTable in Week 1
+2025-02-23 21:22:40,032 - INFO - Deleted existing picture: CancelTable in Week 1
+2025-02-23 21:22:40,086 - INFO - Deleted existing picture: UtilizationTable in Week 1
+2025-02-23 21:22:40,142 - INFO - Deleted existing picture: OnlineTable in Week 1
+2025-02-23 21:22:40,159 - INFO - Deleted existing picture: ReqTable in Week 1
+2025-02-23 21:22:40,181 - INFO - Deleted existing picture: AcceptTable in Week 2
+2025-02-23 21:22:40,200 - INFO - Deleted existing picture: CancelTable in Week 2
+2025-02-23 21:22:40,209 - INFO - Deleted existing picture: UtilizationTable in Week 2
+2025-02-23 21:22:40,219 - INFO - Deleted existing picture: OnlineTable in Week 2
+2025-02-23 21:22:40,232 - INFO - Deleted existing picture: ReqTable in Week 2
+2025-02-23 21:22:43,620 - INFO - Copied picture from Week 1AcceptRateComp, width: 8.89 cm, height: 2.65 cm
+2025-02-23 21:22:44,800 - INFO - Table Name: AcceptTable
+2025-02-23 21:22:45,803 - INFO - 'AcceptTable' successfully pasted in the Week 1AcceptRateComp Sheet.
+2025-02-23 21:22:45,827 - INFO - Resized AcceptContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-23 21:22:46,851 - INFO - Copied picture from Week 1CancelRateComp, width: 8.89 cm, height: 2.65 cm
+2025-02-23 21:22:47,964 - INFO - Table Name: CancelTable
+2025-02-23 21:22:48,965 - INFO - 'CancelTable' successfully pasted in the Week 1CancelRateComp Sheet.
+2025-02-23 21:22:48,991 - INFO - Resized CancelContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-23 21:22:50,012 - INFO - Copied picture from Week 1UtilizationComp, width: 8.89 cm, height: 2.65 cm
+2025-02-23 21:22:51,091 - INFO - Table Name: UtilizationTable
+2025-02-23 21:22:52,092 - INFO - 'UtilizationTable' successfully pasted in the Week 1UtilizationComp Sheet.
+2025-02-23 21:22:52,115 - INFO - Resized UtilizationContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-23 21:22:53,136 - INFO - Copied picture from Week 1POnlineHrsComp, width: 8.89 cm, height: 2.65 cm
+2025-02-23 21:22:54,247 - INFO - Table Name: OnlineTable
+2025-02-23 21:22:55,249 - INFO - 'OnlineTable' successfully pasted in the Week 1POnlineHrsComp Sheet.
+2025-02-23 21:22:55,274 - INFO - Resized OnlineContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-23 21:22:56,298 - INFO - Copied picture from Week 1ReqHrsComp, width: 8.89 cm, height: 2.65 cm
+2025-02-23 21:22:57,410 - INFO - Table Name: ReqTable
+2025-02-23 21:22:58,412 - INFO - 'ReqTable' successfully pasted in the Week 1ReqHrsComp Sheet.
+2025-02-23 21:22:58,437 - INFO - Resized ReqContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-23 21:22:59,525 - INFO - Copied picture from Week 2AcceptRateComp, width: 8.89 cm, height: 2.65 cm
+2025-02-23 21:23:00,660 - INFO - Table Name: AcceptTable
+2025-02-23 21:23:01,662 - INFO - 'AcceptTable' successfully pasted in the Week 2AcceptRateComp Sheet.
+2025-02-23 21:23:01,687 - INFO - Resized AcceptContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-23 21:23:02,708 - INFO - Copied picture from Week 2CancelRateComp, width: 8.89 cm, height: 2.65 cm
+2025-02-23 21:23:03,816 - INFO - Table Name: CancelTable
+2025-02-23 21:23:04,817 - INFO - 'CancelTable' successfully pasted in the Week 2CancelRateComp Sheet.
+2025-02-23 21:23:04,842 - INFO - Resized CancelContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-23 21:23:05,865 - INFO - Copied picture from Week 2UtilizationComp, width: 8.89 cm, height: 2.65 cm
+2025-02-23 21:23:06,987 - INFO - Table Name: UtilizationTable
+2025-02-23 21:23:07,990 - INFO - 'UtilizationTable' successfully pasted in the Week 2UtilizationComp Sheet.
+2025-02-23 21:23:08,016 - INFO - Resized UtilizationContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-23 21:23:09,039 - INFO - Copied picture from Week 2POnlineHrsComp, width: 8.89 cm, height: 2.65 cm
+2025-02-23 21:23:10,122 - INFO - Table Name: OnlineTable
+2025-02-23 21:23:11,124 - INFO - 'OnlineTable' successfully pasted in the Week 2POnlineHrsComp Sheet.
+2025-02-23 21:23:11,158 - INFO - Resized OnlineContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-23 21:23:12,173 - INFO - Copied picture from Week 2ReqHrsComp, width: 8.89 cm, height: 2.65 cm
+2025-02-23 21:23:13,284 - INFO - Table Name: ReqTable
+2025-02-23 21:23:14,286 - INFO - 'ReqTable' successfully pasted in the Week 2ReqHrsComp Sheet.
+2025-02-23 21:23:14,315 - INFO - Resized ReqContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-23 21:23:15,607 - INFO - Data pasted as pictures successfully.
+2025-02-28 11:42:25,114 - INFO - Starting main comparison process.
+2025-02-28 11:42:25,154 - INFO - Loading sheets from the provided Excel files.
+2025-02-28 11:42:26,372 - INFO - Sheets loaded successfully.
+2025-02-28 11:42:26,374 - INFO - Total Clients: TRANSDEV
+2025-02-28 11:42:26,375 - INFO - Client in total: DIV10_TRIMET
+2025-02-28 11:42:26,376 - INFO - Found client header for DIV10_TRIMET at row 3.
+2025-02-28 11:42:26,377 - INFO - Partner rows for client DIV10_TRIMET are between rows 4 and 18.
+2025-02-28 11:42:26,377 - INFO - Total partners for DIV10_TRIMET: 11
+2025-02-28 11:42:26,378 - INFO - Partner: ANGELES TRANSPORTATION, LLC
+2025-02-28 11:42:26,378 - INFO - Amount for partner ANGELES TRANSPORTATION, LLC: 1378.4144999999999
+2025-02-28 11:42:26,378 - INFO - Current Amount for partner ANGELES TRANSPORTATION, LLC: 1378.4144999999999
+2025-02-28 11:42:26,380 - INFO - Partner: ARISESIZ LLC
+2025-02-28 11:42:26,381 - INFO - Amount for partner ARISESIZ LLC: 0
+2025-02-28 11:42:26,381 - INFO - Current Amount for partner ARISESIZ LLC: 1378.4144999999999
+2025-02-28 11:42:26,383 - INFO - Partner: DEAUNDREY WRIGHT
+2025-02-28 11:42:26,383 - INFO - Amount for partner DEAUNDREY WRIGHT: 1352.3043
+2025-02-28 11:42:26,384 - INFO - Current Amount for partner DEAUNDREY WRIGHT: 2730.7187999999996
+2025-02-28 11:42:26,385 - INFO - Partner: FLASH LOGISTICS LLC
+2025-02-28 11:42:26,386 - INFO - Amount for partner FLASH LOGISTICS LLC: 2387.6718
+2025-02-28 11:42:26,386 - INFO - Current Amount for partner FLASH LOGISTICS LLC: 5118.3906
+2025-02-28 11:42:26,387 - INFO - Partner: JUST EASY ACCESS RIDE LLC
+2025-02-28 11:42:26,388 - INFO - Amount for partner JUST EASY ACCESS RIDE LLC: 2058.5289000000002
+2025-02-28 11:42:26,389 - INFO - Current Amount for partner JUST EASY ACCESS RIDE LLC: 7176.9195
+2025-02-28 11:42:26,390 - INFO - Partner: MTIGER TRANSPORTATION
+2025-02-28 11:42:26,391 - INFO - Amount for partner MTIGER TRANSPORTATION: 2027.3135000000002
+2025-02-28 11:42:26,391 - INFO - Current Amount for partner MTIGER TRANSPORTATION: 9204.233
+2025-02-28 11:42:26,393 - INFO - Partner: MVO TRANSPORTATION
+2025-02-28 11:42:26,393 - INFO - Amount for partner MVO TRANSPORTATION: 1723.2928
+2025-02-28 11:42:26,394 - INFO - Current Amount for partner MVO TRANSPORTATION: 10927.5258
+2025-02-28 11:42:26,395 - INFO - Partner: SAFE DESTINATION TRANSPORTATION LLC
+2025-02-28 11:42:26,395 - INFO - Amount for partner SAFE DESTINATION TRANSPORTATION LLC: 3000.0762
+2025-02-28 11:42:26,395 - INFO - Current Amount for partner SAFE DESTINATION TRANSPORTATION LLC: 13927.601999999999
+2025-02-28 11:42:26,397 - INFO - Partner: SANVIN VOYAGE LLC
+2025-02-28 11:42:26,397 - INFO - Amount for partner SANVIN VOYAGE LLC: 1712.1204
+2025-02-28 11:42:26,398 - INFO - Current Amount for partner SANVIN VOYAGE LLC: 15639.722399999999
+2025-02-28 11:42:26,399 - INFO - Partner: SUITE CHARRIOT MOBILITY LLC
+2025-02-28 11:42:26,399 - INFO - Amount for partner SUITE CHARRIOT MOBILITY LLC: 3037.1858
+2025-02-28 11:42:26,400 - INFO - Current Amount for partner SUITE CHARRIOT MOBILITY LLC: 18676.908199999998
+2025-02-28 11:42:26,401 - INFO - Partner: VAMONOS TRANSPORTATION LLC
+2025-02-28 11:42:26,401 - INFO - Amount for partner VAMONOS TRANSPORTATION LLC: 267.2
+2025-02-28 11:42:26,402 - INFO - Current Amount for partner VAMONOS TRANSPORTATION LLC: 18944.1082
+2025-02-28 11:42:26,402 - INFO - Total amount for client DIV10_TRIMET: 18944.1082
+2025-02-28 11:42:26,402 - INFO - Total calculated mamount:18944.1082
+2025-02-28 11:42:26,403 - INFO - Found client header for DIV10_TRIMET at row 3.
+2025-02-28 11:42:26,404 - INFO - Partner rows for client DIV10_TRIMET are between rows 4 and 21.
+2025-02-28 11:42:26,404 - INFO - Total partners for DIV10_TRIMET: 14
+2025-02-28 11:42:26,406 - INFO - Partner: ANGELES TRANSPORTATION, LLC
+2025-02-28 11:42:26,406 - INFO - Amount for partner ANGELES TRANSPORTATION, LLC: -864.0967999999998
+2025-02-28 11:42:26,407 - INFO - Current Amount for partner ANGELES TRANSPORTATION, LLC: -864.0967999999998
+2025-02-28 11:42:26,408 - INFO - Partner: APRIL STAR
+2025-02-28 11:42:26,408 - INFO - Amount for partner APRIL STAR: 1522.9175
+2025-02-28 11:42:26,409 - INFO - Current Amount for partner APRIL STAR: 658.8207000000002
+2025-02-28 11:42:26,410 - INFO - Partner: ARISESIZ LLC
+2025-02-28 11:42:26,410 - INFO - Amount for partner ARISESIZ LLC: 1024.3417
+2025-02-28 11:42:26,410 - INFO - Current Amount for partner ARISESIZ LLC: 1683.1624000000002
+2025-02-28 11:42:26,411 - INFO - Partner: BILLY COLLINS
+2025-02-28 11:42:26,412 - INFO - Amount for partner BILLY COLLINS: 261.496
+2025-02-28 11:42:26,412 - INFO - Current Amount for partner BILLY COLLINS: 1944.6584000000003
+2025-02-28 11:42:26,413 - INFO - Partner: DEAUNDREY WRIGHT
+2025-02-28 11:42:26,413 - INFO - Amount for partner DEAUNDREY WRIGHT: 1865.8494999999998
+2025-02-28 11:42:26,413 - INFO - Current Amount for partner DEAUNDREY WRIGHT: 3810.5079
+2025-02-28 11:42:26,414 - INFO - Partner: FLASH LOGISTICS LLC
+2025-02-28 11:42:26,415 - INFO - Amount for partner FLASH LOGISTICS LLC: 1950.44
+2025-02-28 11:42:26,415 - INFO - Current Amount for partner FLASH LOGISTICS LLC: 5760.9479
+2025-02-28 11:42:26,416 - INFO - Partner: JUST EASY ACCESS RIDE LLC
+2025-02-28 11:42:26,417 - INFO - Amount for partner JUST EASY ACCESS RIDE LLC: 1981.3722
+2025-02-28 11:42:26,417 - INFO - Current Amount for partner JUST EASY ACCESS RIDE LLC: 7742.3201
+2025-02-28 11:42:26,418 - INFO - Partner: MICHAEL BIRD
+2025-02-28 11:42:26,419 - INFO - Amount for partner MICHAEL BIRD: 0
+2025-02-28 11:42:26,419 - INFO - Current Amount for partner MICHAEL BIRD: 7742.3201
+2025-02-28 11:42:26,420 - INFO - Partner: MTIGER TRANSPORTATION
+2025-02-28 11:42:26,421 - INFO - Amount for partner MTIGER TRANSPORTATION: 1852.5443
+2025-02-28 11:42:26,421 - INFO - Current Amount for partner MTIGER TRANSPORTATION: 9594.8644
+2025-02-28 11:42:26,423 - INFO - Partner: MVO TRANSPORTATION
+2025-02-28 11:42:26,423 - INFO - Amount for partner MVO TRANSPORTATION: 1518.4719
+2025-02-28 11:42:26,423 - INFO - Current Amount for partner MVO TRANSPORTATION: 11113.3363
+2025-02-28 11:42:26,425 - INFO - Partner: SAFE DESTINATION TRANSPORTATION LLC
+2025-02-28 11:42:26,425 - INFO - Amount for partner SAFE DESTINATION TRANSPORTATION LLC: 1896.2974
+2025-02-28 11:42:26,425 - INFO - Current Amount for partner SAFE DESTINATION TRANSPORTATION LLC: 13009.6337
+2025-02-28 11:42:26,426 - INFO - Partner: SANVIN VOYAGE LLC
+2025-02-28 11:42:26,426 - INFO - Amount for partner SANVIN VOYAGE LLC: 907.7012000000001
+2025-02-28 11:42:26,427 - INFO - Current Amount for partner SANVIN VOYAGE LLC: 13917.3349
+2025-02-28 11:42:26,428 - INFO - Partner: SUITE CHARRIOT MOBILITY LLC
+2025-02-28 11:42:26,428 - INFO - Amount for partner SUITE CHARRIOT MOBILITY LLC: 2127.2592999999997
+2025-02-28 11:42:26,429 - INFO - Current Amount for partner SUITE CHARRIOT MOBILITY LLC: 16044.5942
+2025-02-28 11:42:26,430 - INFO - Partner: TOM GUTHRIE
+2025-02-28 11:42:26,430 - INFO - Amount for partner TOM GUTHRIE: 533.292
+2025-02-28 11:42:26,430 - INFO - Current Amount for partner TOM GUTHRIE: 16577.8862
+2025-02-28 11:42:26,430 - INFO - Total amount for client DIV10_TRIMET: 16577.8862
+2025-02-28 11:42:26,431 - INFO - Total calculated mamount:16577.8862
+2025-02-28 11:42:26,431 - INFO - Comparing Totals between previous and latest values.
+2025-02-28 11:42:26,432 - INFO - Totals comparison completed.
+2025-02-28 11:42:26,433 - INFO - Comparing Hourly Total Revs between previous and latest sheets.
+2025-02-28 11:42:26,433 - INFO - HTOTAL Client: TRANSDEV
+2025-02-28 11:42:26,439 - INFO - HTOTALREV comparison completed.
+2025-02-28 11:42:26,440 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-28 11:42:26,447 - INFO - Lift Lease comparison completed.
+2025-02-28 11:42:26,447 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-28 11:42:26,456 - INFO - Violation comparison completed.
+2025-02-28 11:42:26,457 - INFO - Comparing trips data between previous and latest sheets.
+2025-02-28 11:42:26,462 - INFO - Trips comparison completed.
+2025-02-28 11:42:26,611 - INFO - Applying formatting to sheet: TotalInvoicePayment.
+2025-02-28 11:42:26,613 - INFO - Formatting applied successfully to sheet: TotalInvoicePayment.
+2025-02-28 11:42:26,613 - INFO - Applying formatting to sheet: HTotalRevComparison.
+2025-02-28 11:42:26,620 - INFO - Formatting applied successfully to sheet: HTotalRevComparison.
+2025-02-28 11:42:26,620 - INFO - Applying formatting to sheet: LiftLeaseComparison.
+2025-02-28 11:42:26,628 - INFO - Formatting applied successfully to sheet: LiftLeaseComparison.
+2025-02-28 11:42:26,628 - INFO - Applying formatting to sheet: ViolationComparison.
+2025-02-28 11:42:26,634 - INFO - Formatting applied successfully to sheet: ViolationComparison.
+2025-02-28 11:42:26,634 - INFO - Applying formatting to sheet: TripsComparison.
+2025-02-28 11:42:26,643 - INFO - Formatting applied successfully to sheet: TripsComparison.
+2025-02-28 11:42:26,717 - INFO - Total Clients: UBER
+2025-02-28 11:42:26,717 - INFO - Client in total: UBER WAV TRANSIT
+2025-02-28 11:42:26,719 - INFO - Found client header for UBER WAV TRANSIT at row 33.
+2025-02-28 11:42:26,719 - INFO - Partner rows for client UBER WAV TRANSIT are between rows 34 and 73.
+2025-02-28 11:42:26,720 - INFO - Total partners for UBER WAV TRANSIT: 6
+2025-02-28 11:42:26,721 - INFO - Partner: BAMS TRANSIT
+2025-02-28 11:42:26,721 - INFO - Amount for partner BAMS TRANSIT: 2414.12
+2025-02-28 11:42:26,722 - INFO - Current Amount for partner BAMS TRANSIT: 2414.12
+2025-02-28 11:42:26,723 - INFO - Partner: CARR TRANSIT LLC
+2025-02-28 11:42:26,723 - INFO - Amount for partner CARR TRANSIT LLC: 1797.7462
+2025-02-28 11:42:26,723 - INFO - Current Amount for partner CARR TRANSIT LLC: 4211.8662
+2025-02-28 11:42:26,724 - INFO - Partner: FLASH LOGISTICS LLC
+2025-02-28 11:42:26,725 - INFO - Amount for partner FLASH LOGISTICS LLC: 0
+2025-02-28 11:42:26,725 - INFO - Current Amount for partner FLASH LOGISTICS LLC: 4211.8662
+2025-02-28 11:42:26,726 - INFO - Partner: JAMAAL PERRY
+2025-02-28 11:42:26,726 - INFO - Amount for partner JAMAAL PERRY: 0
+2025-02-28 11:42:26,727 - INFO - Current Amount for partner JAMAAL PERRY: 4211.8662
+2025-02-28 11:42:26,728 - INFO - Partner: RIDEPASS, LLC
+2025-02-28 11:42:26,729 - INFO - Amount for partner RIDEPASS, LLC: 2223.66
+2025-02-28 11:42:26,729 - INFO - Current Amount for partner RIDEPASS, LLC: 6435.5262
+2025-02-28 11:42:26,730 - INFO - Partner: ROADRUNNERLIFT23 LLC
+2025-02-28 11:42:26,730 - INFO - Amount for partner ROADRUNNERLIFT23 LLC: 2986
+2025-02-28 11:42:26,730 - INFO - Current Amount for partner ROADRUNNERLIFT23 LLC: 9421.5262
+2025-02-28 11:42:26,731 - INFO - Total amount for client UBER WAV TRANSIT: 9421.5262
+2025-02-28 11:42:26,731 - INFO - Total calculated mamount:9421.5262
+2025-02-28 11:42:26,732 - INFO - Found client header for UBER WAV TRANSIT at row 33.
+2025-02-28 11:42:26,733 - INFO - Partner rows for client UBER WAV TRANSIT are between rows 34 and 73.
+2025-02-28 11:42:26,733 - INFO - Total partners for UBER WAV TRANSIT: 6
+2025-02-28 11:42:26,734 - INFO - Partner: BAMS TRANSIT
+2025-02-28 11:42:26,735 - INFO - Amount for partner BAMS TRANSIT: 2940.48
+2025-02-28 11:42:26,735 - INFO - Current Amount for partner BAMS TRANSIT: 2940.48
+2025-02-28 11:42:26,737 - INFO - Partner: CARR TRANSIT LLC
+2025-02-28 11:42:26,737 - INFO - Amount for partner CARR TRANSIT LLC: 2034.5099999999998
+2025-02-28 11:42:26,738 - INFO - Current Amount for partner CARR TRANSIT LLC: 4974.99
+2025-02-28 11:42:26,739 - INFO - Partner: FLASH LOGISTICS LLC
+2025-02-28 11:42:26,739 - INFO - Amount for partner FLASH LOGISTICS LLC: 0
+2025-02-28 11:42:26,739 - INFO - Current Amount for partner FLASH LOGISTICS LLC: 4974.99
+2025-02-28 11:42:26,740 - INFO - Partner: JAMAAL PERRY
+2025-02-28 11:42:26,741 - INFO - Amount for partner JAMAAL PERRY: 0
+2025-02-28 11:42:26,741 - INFO - Current Amount for partner JAMAAL PERRY: 4974.99
+2025-02-28 11:42:26,742 - INFO - Partner: RIDEPASS, LLC
+2025-02-28 11:42:26,742 - INFO - Amount for partner RIDEPASS, LLC: 1792.0175
+2025-02-28 11:42:26,743 - INFO - Current Amount for partner RIDEPASS, LLC: 6767.0075
+2025-02-28 11:42:26,744 - INFO - Partner: ROADRUNNERLIFT23 LLC
+2025-02-28 11:42:26,744 - INFO - Amount for partner ROADRUNNERLIFT23 LLC: 2666.8775
+2025-02-28 11:42:26,745 - INFO - Current Amount for partner ROADRUNNERLIFT23 LLC: 9433.885
+2025-02-28 11:42:26,745 - INFO - Total amount for client UBER WAV TRANSIT: 9433.885
+2025-02-28 11:42:26,745 - INFO - Total calculated mamount:9433.885
+2025-02-28 11:42:26,745 - INFO - Comparing Totals between previous and latest values.
+2025-02-28 11:42:26,746 - INFO - Totals comparison completed.
+2025-02-28 11:42:26,746 - INFO - Comparing Hourly Total Revs between previous and latest sheets.
+2025-02-28 11:42:26,747 - INFO - HTOTAL Client: UBER
+2025-02-28 11:42:26,751 - INFO - HTOTALREV comparison completed.
+2025-02-28 11:42:26,752 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-28 11:42:26,758 - INFO - Lift Lease comparison completed.
+2025-02-28 11:42:26,759 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-28 11:42:26,766 - INFO - Violation comparison completed.
+2025-02-28 11:42:26,766 - INFO - Comparing trips data between previous and latest sheets.
+2025-02-28 11:42:26,771 - INFO - Trips comparison completed.
+2025-02-28 11:42:26,846 - INFO - Applying formatting to sheet: TotalInvoicePayment.
+2025-02-28 11:42:26,848 - INFO - Formatting applied successfully to sheet: TotalInvoicePayment.
+2025-02-28 11:42:26,848 - INFO - Applying formatting to sheet: HTotalRevComparison.
+2025-02-28 11:42:26,851 - INFO - Formatting applied successfully to sheet: HTotalRevComparison.
+2025-02-28 11:42:26,851 - INFO - Applying formatting to sheet: LiftLeaseComparison.
+2025-02-28 11:42:26,854 - INFO - Formatting applied successfully to sheet: LiftLeaseComparison.
+2025-02-28 11:42:26,855 - INFO - Applying formatting to sheet: ViolationComparison.
+2025-02-28 11:42:26,857 - INFO - Formatting applied successfully to sheet: ViolationComparison.
+2025-02-28 11:42:26,935 - INFO - Total amount for client UBER: 9421.5262
+2025-02-28 11:42:26,935 - INFO - Total calculated mamount:28365.6344
+2025-02-28 11:42:26,956 - INFO - Total amount for client UBER: 9433.885
+2025-02-28 11:42:26,956 - INFO - Total calculated mamount:26011.771200000003
+2025-02-28 11:42:26,957 - INFO - Comparing Totals between previous and latest values.
+2025-02-28 11:42:26,958 - INFO - Totals comparison completed.
+2025-02-28 11:42:26,958 - INFO - Comparing Hourly Total Revs between previous and latest sheets.
+2025-02-28 11:42:26,970 - INFO - HTOTALREV comparison completed.
+2025-02-28 11:42:26,971 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-28 11:42:26,978 - INFO - Lift Lease comparison completed.
+2025-02-28 11:42:26,978 - INFO - Comparing Lift Lease between previous and latest sheets.
+2025-02-28 11:42:26,987 - INFO - Violation comparison completed.
+2025-02-28 11:42:26,994 - INFO - Comparing Acceptance Rate for Week 1.
+2025-02-28 11:42:27,000 - INFO - Week 1 Acceptance Rate comparison completed.
+2025-02-28 11:42:27,002 - INFO - Comparing Cancellation Rate for Week 1.
+2025-02-28 11:42:27,007 - INFO - Week 1 Cancellation Rate comparison completed.
+2025-02-28 11:42:27,009 - INFO - Comparing Utilization% for Week 1.
+2025-02-28 11:42:27,013 - INFO - Week 1 Utilization% comparison completed.
+2025-02-28 11:42:27,015 - INFO - Comparing Payable Online Hours for Week 1.
+2025-02-28 11:42:27,021 - INFO - Week 1 Payable Online Hours comparison completed.
+2025-02-28 11:42:27,022 - INFO - Comparing Required Hours for Week 1.
+2025-02-28 11:42:27,027 - INFO - Week 1 Required Hours comparison completed.
+2025-02-28 11:42:27,029 - INFO - Comparing Acceptance Rate for Week 2.
+2025-02-28 11:42:27,035 - INFO - Week 2 Acceptance Rate comparison completed.
+2025-02-28 11:42:27,037 - INFO - Comparing Cancellation Rate for Week 2.
+2025-02-28 11:42:27,041 - INFO - Week 2 Cancellation Rate comparison completed.
+2025-02-28 11:42:27,043 - INFO - Comparing Utilization% for Week 2.
+2025-02-28 11:42:27,048 - INFO - Week 2 Utilization% comparison completed.
+2025-02-28 11:42:27,050 - INFO - Comparing Payable Online Hours for Week 2.
+2025-02-28 11:42:27,057 - INFO - Week 2 Payable Online Hours comparison completed.
+2025-02-28 11:42:27,059 - INFO - Comparing Required Hours for Week 2.
+2025-02-28 11:42:27,064 - INFO - Week 2 Required Hours comparison completed.
+2025-02-28 11:42:27,269 - INFO - Applying formatting to sheet: TotalInvoicePayment.
+2025-02-28 11:42:27,271 - INFO - Formatting applied successfully to sheet: TotalInvoicePayment.
+2025-02-28 11:42:27,272 - INFO - Applying formatting to sheet: HTotalRevComparison.
+2025-02-28 11:42:27,280 - INFO - Formatting applied successfully to sheet: HTotalRevComparison.
+2025-02-28 11:42:27,281 - INFO - Applying formatting to sheet: LiftLeaseComparison.
+2025-02-28 11:42:27,290 - INFO - Formatting applied successfully to sheet: LiftLeaseComparison.
+2025-02-28 11:42:27,290 - INFO - Applying formatting to sheet: ViolationComparison.
+2025-02-28 11:42:27,297 - INFO - Formatting applied successfully to sheet: ViolationComparison.
+2025-02-28 11:42:27,298 - INFO - Applying formatting to sheet: Week 1AcceptRateComp.
+2025-02-28 11:42:27,301 - INFO - Formatting applied successfully to sheet: Week 1AcceptRateComp.
+2025-02-28 11:42:27,302 - INFO - Applying formatting to sheet: Week 1CancelRateComp.
+2025-02-28 11:42:27,304 - INFO - Formatting applied successfully to sheet: Week 1CancelRateComp.
+2025-02-28 11:42:27,304 - INFO - Applying formatting to sheet: Week 1UtilizationComp.
+2025-02-28 11:42:27,306 - INFO - Formatting applied successfully to sheet: Week 1UtilizationComp.
+2025-02-28 11:42:27,307 - INFO - Applying formatting to sheet: Week 1POnlineHrsComp.
+2025-02-28 11:42:27,309 - INFO - Formatting applied successfully to sheet: Week 1POnlineHrsComp.
+2025-02-28 11:42:27,309 - INFO - Applying formatting to sheet: Week 1ReqHrsComp.
+2025-02-28 11:42:27,311 - INFO - Formatting applied successfully to sheet: Week 1ReqHrsComp.
+2025-02-28 11:42:27,311 - INFO - Applying formatting to sheet: Week 2AcceptRateComp.
+2025-02-28 11:42:27,313 - INFO - Formatting applied successfully to sheet: Week 2AcceptRateComp.
+2025-02-28 11:42:27,313 - INFO - Applying formatting to sheet: Week 2CancelRateComp.
+2025-02-28 11:42:27,315 - INFO - Formatting applied successfully to sheet: Week 2CancelRateComp.
+2025-02-28 11:42:27,316 - INFO - Applying formatting to sheet: Week 2UtilizationComp.
+2025-02-28 11:42:27,318 - INFO - Formatting applied successfully to sheet: Week 2UtilizationComp.
+2025-02-28 11:42:27,319 - INFO - Applying formatting to sheet: Week 2POnlineHrsComp.
+2025-02-28 11:42:27,321 - INFO - Formatting applied successfully to sheet: Week 2POnlineHrsComp.
+2025-02-28 11:42:27,321 - INFO - Applying formatting to sheet: Week 2ReqHrsComp.
+2025-02-28 11:42:27,323 - INFO - Formatting applied successfully to sheet: Week 2ReqHrsComp.
+2025-02-28 11:42:27,503 - INFO - Main comparison process completed successfully. File saved to ComparedResults\DIV10_Tables.xlsx.
+2025-02-28 11:42:29,503 - INFO - VDP_DIV10_1216_1229_FINAL.xlsm + VDP_DIV10_1230_0112_FINAL.xlsm
+2025-02-28 11:42:31,651 - INFO - Successfully updated color for TextBox 90 with status 'Decreased'.
+2025-02-28 11:42:31,655 - INFO - Successfully updated color for txtHTotalRevDiff with value '1,588.94'.
+2025-02-28 11:42:31,657 - INFO - Successfully updated color for txtLLeaseDiff with value '635.98'.
+2025-02-28 11:42:31,660 - INFO - Successfully updated color for txtViolationsDiff with value '1,000.00'.
+2025-02-28 11:42:31,753 - INFO - Successfully updated color for TextBox 90 with status 'Decreased'.
+2025-02-28 11:42:31,757 - INFO - Successfully updated color for txtHTotalRevDiff with value '1,526.50'.
+2025-02-28 11:42:31,759 - INFO - Successfully updated color for txtLLeaseDiff with value '585.90'.
+2025-02-28 11:42:31,762 - INFO - Successfully updated color for txtViolationsDiff with value '1,000.00'.
+2025-02-28 11:42:31,764 - INFO - Successfully updated color for txtTripsDiff with value '71'.
+2025-02-28 11:42:31,867 - INFO - Successfully updated color for TextBox 90 with status 'Increased'.
+2025-02-28 11:42:31,869 - INFO - Successfully updated color for txtHTotalRevDiff with value '62.44'.
+2025-02-28 11:42:31,872 - INFO - Successfully updated color for txtLLeaseDiff with value '50.08'.
+2025-02-28 11:42:31,874 - INFO - Successfully updated color for txtViolationsDiff with value '0.00'.
+2025-02-28 11:42:33,152 - INFO - ComparedResults/Dashboard.xlsm has been successfully updated and saved.
+2025-02-28 11:42:36,702 - INFO - Picture name: ViolationsTable found in Dashboard
+2025-02-28 11:42:36,794 - INFO - Deleted existing picture: ViolationsTable in Dashboard
+2025-02-28 11:42:36,795 - INFO - Picture name: HoursTable found in Dashboard
+2025-02-28 11:42:36,799 - INFO - Deleted existing picture: HoursTable in Dashboard
+2025-02-28 11:42:36,799 - INFO - Picture name: LeaseTable found in Dashboard
+2025-02-28 11:42:36,851 - INFO - Deleted existing picture: LeaseTable in Dashboard
+2025-02-28 11:42:36,927 - INFO - Picture name: ViolationsTable found in Transdev
+2025-02-28 11:42:36,969 - INFO - Deleted existing picture: ViolationsTable in Transdev
+2025-02-28 11:42:36,970 - INFO - Picture name: HoursTable found in Transdev
+2025-02-28 11:42:36,983 - INFO - Deleted existing picture: HoursTable in Transdev
+2025-02-28 11:42:36,984 - INFO - Picture name: LeaseTable found in Transdev
+2025-02-28 11:42:37,000 - INFO - Deleted existing picture: LeaseTable in Transdev
+2025-02-28 11:42:37,002 - INFO - Picture name: TripsTable found in Transdev
+2025-02-28 11:42:37,015 - INFO - Deleted existing picture: TripsTable in Transdev
+2025-02-28 11:42:37,050 - INFO - Picture name: ViolationsTable found in Uber
+2025-02-28 11:42:37,078 - INFO - Deleted existing picture: ViolationsTable in Uber
+2025-02-28 11:42:37,078 - INFO - Picture name: HoursTable found in Uber
+2025-02-28 11:42:37,088 - INFO - Deleted existing picture: HoursTable in Uber
+2025-02-28 11:42:37,089 - INFO - Picture name: LeaseTable found in Uber
+2025-02-28 11:42:37,114 - INFO - Deleted existing picture: LeaseTable in Uber
+2025-02-28 11:42:40,746 - INFO - Copied picture from ViolationComparison, width: 11.67 cm, height: 10.05 cm
+2025-02-28 11:42:41,937 - INFO - Table Name: ViolationsTable
+2025-02-28 11:42:42,938 - INFO - 'ViolationsTable' successfully pasted in the ViolationComparison Sheet.
+2025-02-28 11:42:42,965 - INFO - Resized ViolationsContainer to width: 11.70 cm, height: 12.03 cm
+2025-02-28 11:42:43,989 - INFO - Copied picture from HTotalRevComparison, width: 12.04 cm, height: 10.05 cm
+2025-02-28 11:42:45,070 - INFO - Table Name: HoursTable
+2025-02-28 11:42:46,072 - INFO - 'HoursTable' successfully pasted in the HTotalRevComparison Sheet.
+2025-02-28 11:42:46,094 - INFO - Resized HoursContainer to width: 12.07 cm, height: 12.03 cm
+2025-02-28 11:42:47,118 - INFO - Copied picture from LiftLeaseComparison, width: 11.67 cm, height: 10.05 cm
+2025-02-28 11:42:48,227 - INFO - Table Name: LeaseTable
+2025-02-28 11:42:49,229 - INFO - 'LeaseTable' successfully pasted in the LiftLeaseComparison Sheet.
+2025-02-28 11:42:49,256 - INFO - Resized LeaseContainer to width: 11.70 cm, height: 12.03 cm
+2025-02-28 11:42:50,710 - INFO - Copied picture from ViolationComparison, width: 11.67 cm, height: 7.94 cm
+2025-02-28 11:42:51,861 - INFO - Table Name: ViolationsTable
+2025-02-28 11:42:52,862 - INFO - 'ViolationsTable' successfully pasted in the ViolationComparison Sheet.
+2025-02-28 11:42:52,884 - INFO - Resized ViolationsContainer to width: 11.70 cm, height: 9.91 cm
+2025-02-28 11:42:53,909 - INFO - Copied picture from HTotalRevComparison, width: 11.67 cm, height: 7.94 cm
+2025-02-28 11:42:55,027 - INFO - Table Name: HoursTable
+2025-02-28 11:42:56,029 - INFO - 'HoursTable' successfully pasted in the HTotalRevComparison Sheet.
+2025-02-28 11:42:56,053 - INFO - Resized HoursContainer to width: 11.70 cm, height: 9.91 cm
+2025-02-28 11:42:57,077 - INFO - Copied picture from LiftLeaseComparison, width: 11.67 cm, height: 7.94 cm
+2025-02-28 11:42:58,223 - INFO - Table Name: LeaseTable
+2025-02-28 11:42:59,225 - INFO - 'LeaseTable' successfully pasted in the LiftLeaseComparison Sheet.
+2025-02-28 11:42:59,260 - INFO - Resized LeaseContainer to width: 11.70 cm, height: 9.91 cm
+2025-02-28 11:43:00,330 - INFO - Copied picture from TripsComparison, width: 8.70 cm, height: 12.17 cm
+2025-02-28 11:43:01,411 - INFO - Table Name: TripsTable
+2025-02-28 11:43:02,412 - INFO - 'TripsTable' successfully pasted in the TripsComparison Sheet.
+2025-02-28 11:43:02,440 - INFO - Resized TripsContainer to width: 8.74 cm, height: 14.15 cm
+2025-02-28 11:43:03,789 - INFO - Copied picture from ViolationComparison, width: 8.89 cm, height: 2.65 cm
+2025-02-28 11:43:04,962 - INFO - Table Name: ViolationsTable
+2025-02-28 11:43:05,963 - INFO - 'ViolationsTable' successfully pasted in the ViolationComparison Sheet.
+2025-02-28 11:43:05,991 - INFO - Resized ViolationsContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-28 11:43:07,025 - INFO - Copied picture from HTotalRevComparison, width: 9.26 cm, height: 2.65 cm
+2025-02-28 11:43:08,117 - INFO - Table Name: HoursTable
+2025-02-28 11:43:09,119 - INFO - 'HoursTable' successfully pasted in the HTotalRevComparison Sheet.
+2025-02-28 11:43:09,146 - INFO - Resized HoursContainer to width: 9.30 cm, height: 4.62 cm
+2025-02-28 11:43:10,167 - INFO - Copied picture from LiftLeaseComparison, width: 8.89 cm, height: 2.65 cm
+2025-02-28 11:43:11,279 - INFO - Table Name: LeaseTable
+2025-02-28 11:43:12,280 - INFO - 'LeaseTable' successfully pasted in the LiftLeaseComparison Sheet.
+2025-02-28 11:43:12,302 - INFO - Resized LeaseContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-28 11:43:14,080 - INFO - Data pasted as pictures successfully.
+2025-02-28 11:43:17,473 - INFO - Week VDP_DIV10_1216_1229_FINAL.xlsm + VDP_DIV10_1230_0112_FINAL.xlsm
+2025-02-28 11:43:18,893 - INFO - Processing ComparedResults/DIV10_Tables.xlsx -> Week 1
+2025-02-28 11:43:18,946 - INFO - Processing ComparedResults/DIV10_Tables.xlsx -> Week 1
+2025-02-28 11:43:18,949 - INFO - Accept Hrs: 98.44 -> 100.00
+2025-02-28 11:43:19,341 - INFO - Successfully updated color for txtAcceptDiff with value '1.56'.
+2025-02-28 11:43:19,358 - INFO - Successfully updated color for txtCancelDiff with value '-5.00'.
+2025-02-28 11:43:19,371 - INFO - Successfully updated color for txtUtilizationDiff with value '-2.20'.
+2025-02-28 11:43:19,391 - INFO - Successfully updated color for txtPOnlineHrsDiff with value '-3.62'.
+2025-02-28 11:43:19,407 - INFO - Successfully updated color for txtReqHrsDiff with value '-1.89'.
+2025-02-28 11:43:19,407 - INFO - Processing ComparedResults/DIV10_Tables.xlsx -> Week 2
+2025-02-28 11:43:19,433 - INFO - Processing ComparedResults/DIV10_Tables.xlsx -> Week 2
+2025-02-28 11:43:19,437 - INFO - Accept Hrs: 100.00 -> 89.06
+2025-02-28 11:43:19,677 - INFO - Successfully updated color for txtAcceptDiff with value '-10.94'.
+2025-02-28 11:43:19,697 - INFO - Successfully updated color for txtCancelDiff with value '3.47'.
+2025-02-28 11:43:19,711 - INFO - Successfully updated color for txtUtilizationDiff with value '-2.92'.
+2025-02-28 11:43:19,726 - INFO - Successfully updated color for txtPOnlineHrsDiff with value '3.86'.
+2025-02-28 11:43:19,742 - INFO - Successfully updated color for txtReqHrsDiff with value '1.87'.
+2025-02-28 11:43:22,780 - INFO - ComparedResults/Dashboard.xlsm has been successfully updated and saved.
+2025-02-28 11:43:26,254 - INFO - Deleted existing picture: AcceptTable in Week 1
+2025-02-28 11:43:26,257 - INFO - Deleted existing picture: CancelTable in Week 1
+2025-02-28 11:43:26,314 - INFO - Deleted existing picture: UtilizationTable in Week 1
+2025-02-28 11:43:26,337 - INFO - Deleted existing picture: OnlineTable in Week 1
+2025-02-28 11:43:26,366 - INFO - Deleted existing picture: ReqTable in Week 1
+2025-02-28 11:43:26,397 - INFO - Deleted existing picture: AcceptTable in Week 2
+2025-02-28 11:43:26,408 - INFO - Deleted existing picture: CancelTable in Week 2
+2025-02-28 11:43:26,413 - INFO - Deleted existing picture: UtilizationTable in Week 2
+2025-02-28 11:43:26,427 - INFO - Deleted existing picture: OnlineTable in Week 2
+2025-02-28 11:43:26,439 - INFO - Deleted existing picture: ReqTable in Week 2
+2025-02-28 11:43:29,816 - INFO - Copied picture from Week 1AcceptRateComp, width: 8.89 cm, height: 2.65 cm
+2025-02-28 11:43:30,947 - INFO - Table Name: AcceptTable
+2025-02-28 11:43:31,948 - INFO - 'AcceptTable' successfully pasted in the Week 1AcceptRateComp Sheet.
+2025-02-28 11:43:31,972 - INFO - Resized AcceptContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-28 11:43:32,995 - INFO - Copied picture from Week 1CancelRateComp, width: 8.89 cm, height: 2.65 cm
+2025-02-28 11:43:34,084 - INFO - Table Name: CancelTable
+2025-02-28 11:43:35,086 - INFO - 'CancelTable' successfully pasted in the Week 1CancelRateComp Sheet.
+2025-02-28 11:43:35,110 - INFO - Resized CancelContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-28 11:43:36,137 - INFO - Copied picture from Week 1UtilizationComp, width: 8.89 cm, height: 2.65 cm
+2025-02-28 11:43:37,248 - INFO - Table Name: UtilizationTable
+2025-02-28 11:43:38,250 - INFO - 'UtilizationTable' successfully pasted in the Week 1UtilizationComp Sheet.
+2025-02-28 11:43:38,275 - INFO - Resized UtilizationContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-28 11:43:39,298 - INFO - Copied picture from Week 1POnlineHrsComp, width: 8.89 cm, height: 2.65 cm
+2025-02-28 11:43:40,413 - INFO - Table Name: OnlineTable
+2025-02-28 11:43:41,414 - INFO - 'OnlineTable' successfully pasted in the Week 1POnlineHrsComp Sheet.
+2025-02-28 11:43:41,436 - INFO - Resized OnlineContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-28 11:43:42,458 - INFO - Copied picture from Week 1ReqHrsComp, width: 8.89 cm, height: 2.65 cm
+2025-02-28 11:43:43,577 - INFO - Table Name: ReqTable
+2025-02-28 11:43:44,578 - INFO - 'ReqTable' successfully pasted in the Week 1ReqHrsComp Sheet.
+2025-02-28 11:43:44,601 - INFO - Resized ReqContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-28 11:43:45,695 - INFO - Copied picture from Week 2AcceptRateComp, width: 8.89 cm, height: 2.65 cm
+2025-02-28 11:43:46,869 - INFO - Table Name: AcceptTable
+2025-02-28 11:43:47,870 - INFO - 'AcceptTable' successfully pasted in the Week 2AcceptRateComp Sheet.
+2025-02-28 11:43:47,893 - INFO - Resized AcceptContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-28 11:43:48,917 - INFO - Copied picture from Week 2CancelRateComp, width: 8.89 cm, height: 2.65 cm
+2025-02-28 11:43:50,028 - INFO - Table Name: CancelTable
+2025-02-28 11:43:51,030 - INFO - 'CancelTable' successfully pasted in the Week 2CancelRateComp Sheet.
+2025-02-28 11:43:51,055 - INFO - Resized CancelContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-28 11:43:52,077 - INFO - Copied picture from Week 2UtilizationComp, width: 8.89 cm, height: 2.65 cm
+2025-02-28 11:43:53,148 - INFO - Table Name: UtilizationTable
+2025-02-28 11:43:54,149 - INFO - 'UtilizationTable' successfully pasted in the Week 2UtilizationComp Sheet.
+2025-02-28 11:43:54,175 - INFO - Resized UtilizationContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-28 11:43:55,198 - INFO - Copied picture from Week 2POnlineHrsComp, width: 8.89 cm, height: 2.65 cm
+2025-02-28 11:43:56,273 - INFO - Table Name: OnlineTable
+2025-02-28 11:43:57,274 - INFO - 'OnlineTable' successfully pasted in the Week 2POnlineHrsComp Sheet.
+2025-02-28 11:43:57,298 - INFO - Resized OnlineContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-28 11:43:58,324 - INFO - Copied picture from Week 2ReqHrsComp, width: 8.89 cm, height: 2.65 cm
+2025-02-28 11:43:59,442 - INFO - Table Name: ReqTable
+2025-02-28 11:44:00,443 - INFO - 'ReqTable' successfully pasted in the Week 2ReqHrsComp Sheet.
+2025-02-28 11:44:00,467 - INFO - Resized ReqContainer to width: 8.93 cm, height: 4.62 cm
+2025-02-28 11:44:01,716 - INFO - Data pasted as pictures successfully.

@@ -51,7 +51,6 @@ def main(file_previous, file_latest):
             sheet_ViolationComparison = wb_comparison['ViolationComparison']
 
             sheet_TripsComparison = None
-            sheet_TripsComparison = None
             lat_TripsComp = None
             prev_TripsComp = None
             diff_TripsComp = None
@@ -59,9 +58,9 @@ def main(file_previous, file_latest):
             txt_Trips_diff = None
             if sheet_name == 'Transdev':
                 sheet_TripsComparison = wb_comparison['TripsComparison']
-                lat_TripsComp = f"{sum(cell.value for row in sheet_TripsComparison.iter_rows(min_row=2, max_row=50, min_col=2, max_col=2) for cell in row if cell.value is not None):,.2f}"
-                prev_TripsComp = f"{sum(cell.value for row in sheet_TripsComparison.iter_rows(min_row=2, max_row=50, min_col=3, max_col=3) for cell in row if cell.value is not None):,.2f}"
-                diff_TripsComp = f"{sum(cell.value for row in sheet_TripsComparison.iter_rows(min_row=2, max_row=50, min_col=4, max_col=4) for cell in row if cell.value is not None):,.2f}"
+                lat_TripsComp = f"{sum(cell.value for row in sheet_TripsComparison.iter_rows(min_row=2, max_row=50, min_col=2, max_col=2) for cell in row if cell.value is not None):,}"
+                prev_TripsComp = f"{sum(cell.value for row in sheet_TripsComparison.iter_rows(min_row=2, max_row=50, min_col=3, max_col=3) for cell in row if cell.value is not None):,}"
+                diff_TripsComp = f"{sum(cell.value for row in sheet_TripsComparison.iter_rows(min_row=2, max_row=50, min_col=4, max_col=4) for cell in row if cell.value is not None):,}"
 
                 sheet_dashboard = wb_dashboard.sheets[sheet_name]
                 # Access the ViolationComparison shape via the API and set the value

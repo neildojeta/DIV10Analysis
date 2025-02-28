@@ -539,7 +539,7 @@ def compare_ReqHours(sheet_previous, sheet_latest, week):
         # Calculate the change
         comparison["CHANGE"] = comparison["% of Hours to Required_LATEST"] - comparison["% of Hours to Required_PREVIOUS"]
         for col in ["% of Hours to Required_LATEST", "% of Hours to Required_PREVIOUS", "CHANGE"]:
-            comparison[col] = comparison[col].apply(lambda x: float(f"{x:.2f}"))
+            comparison[col] = comparison[col].apply(lambda x: float(f"{x * 100:.2f}"))
 
         # Rename columns
         comparison.columns = ["PARTNER", "LATEST", "PREVIOUS", "CHANGE"]
